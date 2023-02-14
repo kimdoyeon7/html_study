@@ -9,4 +9,5 @@
 
 <h2>23.02.14 - HTML - 문서태크+내비게이션 개념 </h2>
 <p> &lt;em&gt; sub, sup, hr, strong, em, address, del, s, q, code, blockquote  </p>
-<p> gnb, lnb, snb, fnb, Breadcrumbs</p>
+<p><em> gnb, lnb, snb, fnb, Breadcrumbs</em></p>
+<blockquote cite=https://webty.tistory.com/85> 유나쌤 블로그 참고 - https://webty.tistory.com/85 </blockquote>
