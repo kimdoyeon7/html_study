@@ -14,11 +14,9 @@
 <p> &lt;sub&gt; &lt;sup&gt; &lt;em&gt; &lt;strong&gt; &lt;q&gt; &lt;code&gt; &lt;del&gt; &lt;s&gt; &lt;br&gt; </p>
 <blockquote cite=https://webty.tistory.com/85> 유나쌤 블로그 참고 - https://webty.tistory.com/85 </blockquote>
 <p><strong>네비게이션 개념</strong></p>
-<p><em> gnb, lnb, snb, fnb </em></p>
+<p><em> gnb, lnb, snb, fnb + 번외개념:Breadcrumbs </em></p>
 <p>gnb<br>사이트최상단네비게이션<br>어떤 페이지에 들어가도 고정되어있는 주 메뉴 </p>
 <p>lnb<br>gnb의 하단에 배치된 서브메뉴=중분류메뉴</p>
-
-
-
-<p> &lt;em&gt; sub, sup, hr, strong, em, address, del, s, q, code, blockquote  </p>
-<p><em> gnb, lnb, snb, fnb, Breadcrumbs</em></p>
+<p>snb<br>페이지 내에 좌/우측에 일반적으로 존재하는 추가 메뉴</p>
+<p>fnb<br>footer 영역에 존재하는 회사소개, 저작권 등의 보조메뉴</p>
+<p>Breadcrumbs<br>경로구성 즉 경로를 알려주는 부분</p>
