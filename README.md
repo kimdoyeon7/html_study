@@ -12,8 +12,13 @@
 <p> &lt;h&gt; , &lt;p&gt; , &lt;hr&gt; , &lt;address&gt; , &lt;blockquote&gt;</p>
 <p><strong>인라인태크종류</strong></p>
 <p> &lt;sub&gt; &lt;sup&gt; &lt;em&gt; &lt;strong&gt; &lt;q&gt; &lt;code&gt; &lt;del&gt; &lt;s&gt; &lt;br&gt; </p>
+<blockquote cite=https://webty.tistory.com/85> 유나쌤 블로그 참고 - https://webty.tistory.com/85 </blockquote>
+<p><strong>네비게이션 개념</strong></p>
+<p><em> gnb, lnb, snb, fnb </em></p>
+<p>gnb<br>사이트최상단네비게이션<br>어떤 페이지에 들어가도 고정되어있는 주 메뉴 </p>
+<p>lnb<br>gnb의 하단에 배치된 서브메뉴=중분류메뉴</p>
+
 
 
 <p> &lt;em&gt; sub, sup, hr, strong, em, address, del, s, q, code, blockquote  </p>
 <p><em> gnb, lnb, snb, fnb, Breadcrumbs</em></p>
-<blockquote cite=https://webty.tistory.com/85> 유나쌤 블로그 참고 - https://webty.tistory.com/85 </blockquote>
