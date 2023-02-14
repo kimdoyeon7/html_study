@@ -7,4 +7,5 @@
 <p>block과 linline태그는 의미에 맞게 외부/내부 구조로 구성해서 사용해야 한다.(의미 중첩되지 않도록)</p>
 <hr>
 
-<h2>23.02.14 - HTML - 요약 </h2>
+<h2>23.02.14 - HTML - 문서태크 </h2>
+<p> &lt;em&gt; sub, sup, hr, strong, em, address, del, s, q, code, blockquote  </p>
