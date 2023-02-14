@@ -8,6 +8,12 @@
 <hr>
 
 <h2>23.02.14 - HTML - 문서태크+내비게이션 개념 </h2>
+<p><strong>블록태그종류</strong></p>
+<p> &lt;h&gt; , &lt;p&gt; , &lt;hr&gt; , &lt;address&gt; , &lt;blockquote&gt;</p>
+<p><strong>인라인태크종류</strong></p>
+<p> &lt;sub&gt; &lt;sup&gt; &lt;em&gt; &lt;strong&gt; &lt;q&gt; &lt;code&gt; &lt;del&gt; &lt;s&gt; &lt;br&gt; </p>
+
+
 <p> &lt;em&gt; sub, sup, hr, strong, em, address, del, s, q, code, blockquote  </p>
 <p><em> gnb, lnb, snb, fnb, Breadcrumbs</em></p>
 <blockquote cite=https://webty.tistory.com/85> 유나쌤 블로그 참고 - https://webty.tistory.com/85 </blockquote>
