@@ -9,9 +9,9 @@
 
 <h2>23.02.14 - HTML - 문서태크+내비게이션 개념 </h2>
 <p><strong>블록태그종류</strong></p>
-<p> &lt;h&gt; , &lt;p&gt; , &lt;hr&gt; , &lt;address&gt; , &lt;blockquote&gt;</p>
+<p> &lt;h&gt; - 제목 , &lt;p&gt; - 내용 , &lt;hr&gt; - 구분선 , &lt;address&gt; , - 풋터영역 &lt;blockquote&gt; - 긴 인용문</p>
 <p><strong>인라인태크종류</strong></p>
-<p> &lt;sub&gt; &lt;sup&gt; &lt;em&gt; &lt;strong&gt; &lt;q&gt; &lt;code&gt; &lt;del&gt; &lt;s&gt; &lt;br&gt; </p>
+<p> <sub>&lt;sub&gt;</sub> <sup>&lt;sup&gt;</sup> <em>&lt;em&gt;</em> <strong>&lt;strong&gt;</strong> <q cite="">&lt;q&gt;</q> <code>&lt;code&gt;</code> <del>&lt;del&gt;</del> <s>&lt;s&gt;</s> &lt;br&gt; - 줄바꿈 </p>
 <blockquote cite=https://webty.tistory.com/85> 유나쌤 블로그 참고 - https://webty.tistory.com/85 </blockquote>
 <p><strong>네비게이션 개념</strong></p>
 <p><em> gnb, lnb, snb, fnb + 번외개념:Breadcrumbs </em></p>
@@ -20,3 +20,4 @@
 <p><em>snb</em><br>페이지 내에 좌/우측에 일반적으로 존재하는 추가 메뉴</p>
 <p><em>fnb</em><br>footer 영역에 존재하는 회사소개, 저작권 등의 보조메뉴</p>
 <p><em>Breadcrumbs</em><br>경로구성 즉 경로를 알려주는 부분</p>
+<hr>
