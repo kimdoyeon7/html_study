@@ -24,3 +24,18 @@
 
 <h2>23.02.15 - HTML - &lt;ol&gt; , &lt;ul&gt; , &lt;li&gt; 블록태그 </h2>
 <p><strong>순서가 있는 목록일 때는 &lt;ol&gt; 를 사용한다. </strong></p>
+<p>&lt;ol&gt; 의 특징은? </p>
+<ol>
+  <li> 순서가 존재한다</li>
+  <li> 내가 글머리에 숫자를 입력하지 않아도 순서대로 나열된다.</li>
+</ol>
+<p><strong>순서가 없는 목록일 때는 &lt;ul&gt; 를 사용한다.</strong></p>
+<p>&lt;ul&gt; 의 특징은?</p>
+<ul>
+  <li>순서없이 나열한다.</li>
+  <li>글머리가 숫자가 아닌 아이콘으로 표시된다.</li>
+</ul>
+<p>&lt;ol&gt; 와 &lt;ul&gt; 공통 특징은?</p>
+<p><em>반드시 &lt;li&gt; 태그와 가장 근접해야한다. </em></p>
+
+<hr>
