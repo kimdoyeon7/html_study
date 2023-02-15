@@ -22,7 +22,7 @@
 <p><em>Breadcrumbs</em><br>경로구성 즉 경로를 알려주는 부분</p>
 <hr>
 
-<h2>23.02.15 - HTML - &lt;ol&gt; , &lt;ul&gt; , &lt;li&gt; 블록태그 </h2>
+<h2>23.02.15 - HTML - &lt;ol&gt; , &lt;ul&gt; , &lt;li&gt; , &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt; </h2>
 <h3>순차/비순차 목록태그</h3>
 <p><strong>순서가 있는 목록일 때는 &lt;ol&gt; 를 사용한다. </strong></p>
 <p>&lt;ol&gt; 의 특징은? </p>
