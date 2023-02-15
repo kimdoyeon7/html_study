@@ -43,5 +43,8 @@
 
 <h3>정의형 태그</h3>
 <p><strong> &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt; 태그로 구성되어 있다.</strong></p>
+<p> 정의형 태그의 특징은?</p>
+<p><em>반드시 &lt;dl&gt; 안에는 &lt;dt&gt;,&lt;dd&gt; 가 와야한다.</em></p>
+<p><em>dt 와 dd 는 1 : 1로 구성되어야한다. dt,dt,dd 로는 구성이 안된다.</em></p>
 
 <hr>
