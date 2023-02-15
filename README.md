@@ -24,6 +24,7 @@
 
 <h2>23.02.15 - HTML - &lt;ol&gt; , &lt;ul&gt; , &lt;li&gt; , &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt; </h2>
 <h3>순차/비순차 목록태그</h3>
+<p>gnb_lnb를 구성할 때 사용하는 태그</p>
 <p><strong>순서가 있는 목록일 때는 &lt;ol&gt; 를 사용한다. </strong></p>
 <p>&lt;ol&gt; 의 특징은? </p>
 <ol>
