@@ -23,6 +23,7 @@
 <hr>
 
 <h2>23.02.15 - HTML - &lt;ol&gt; , &lt;ul&gt; , &lt;li&gt; 블록태그 </h2>
+<h3>순차/비순차 목록태그</h3>
 <p><strong>순서가 있는 목록일 때는 &lt;ol&gt; 를 사용한다. </strong></p>
 <p>&lt;ol&gt; 의 특징은? </p>
 <ol>
@@ -39,5 +40,8 @@
 <p><em>반드시 &lt;li&gt; 태그와 가장 근접해야한다. </em></p>
 <p><em>반드시 li 태그의 형제는 li 태그만 가능하다 </em></p>
 <p><em> &lt;li&gt; 태그를 사용하기 위해서는 반드시 &lt;ol&gt; , &lt;ul&gt; 태그를 사용 후 사용해야한다.</em></p>
+
+<h3>정의형 태그</h3>
+<p><strong> &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt; 태그로 구성되어 있다.</strong></p>
 
 <hr>
