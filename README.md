@@ -45,14 +45,10 @@
 <h3>정의형 태그</h3>
 <p>쇼핑몰 사이트의 제품 가격 및 옵션 창에서 자주 사용하는 태그</p>
 <p><strong> &lt;dl&gt;, &lt;dt&gt;, &lt;dd&gt; 태그로 구성되어 있다.</strong></p>
-<p>
-  <code>
-    <dl> &lt;dl&gt; = 하나의 박스(그룹)
+<dl> &lt;dl&gt; = 하나의 박스(그룹)
       <dt> &lt;dt&gt; = 제목</dt>
       <dd> &lt;dd&gt; = 내용</dd>
-    </dl>
-   </code>
-</p>
+</dl>
 <p> 정의형 태그의 특징은?</p>
 <p><em>반드시 &lt;dl&gt; 안에는 &lt;dt&gt;,&lt;dd&gt; 가 와야한다.</em></p>
 <p><em> &lt;dt&gt; , &lt;dd&gt; 는 1 : 1로 구성되어야한다.</em></p>
