@@ -56,3 +56,21 @@
 <p><em> &lt;dt&gt; , &lt;dt&gt; , &lt;dd&gt; 로는 구성이 안된다. </em></p>
 
 <hr>
+
+
+
+<div class="study">
+  <h2>23.02.16 - HTML - 시맨틱태크, 그룹태그</h2>
+  <dl>
+    <dt>그룹태그는 &lt;div&gt; 가 있음</dt>
+    <dd>&lt;div&gt; 는 속성에 class=""를 넣어 이름을 주어야함.</dd>
+    <dd>&lt;div&gt; 는 css에서 공통된 효과를 주기 위해 필요함</dd>
+    <dd>&lt;div&gt; 는 피그마에서 오토레이어 효과를 준 부분을 표현하는 태그 </dd>
+    <dt>시맨틱태그는 총 11개가 있음 </dt>
+    <dd></dd>
+    <dd></dd>
+    <dd></dd>
+    <dd></dd>
+  </dl>
+</div>
+
