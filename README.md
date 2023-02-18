@@ -74,7 +74,18 @@
 
 <h2>23.02.17 - HTML - 링크, 이미지, 비디오 태그</h2>
 <ul>
-  <li>링크 태그 &lt;a&gt;&lt;/a&gt;</li>
+  <li>링크 태그 &lt;a href=""&gt;&lt;/a&gt;</li>
   <li>이미지 태그 &lt;img&gt; </li>
-  <li>비디오 태그 &lt;video&gt;</li>
+  <li>비디오 태그 &lt;video&gt;&lt;/video&gt;</li>
 </ul>
+<div>
+  <p><strong>링크태그</strong></p>
+  <ol>
+    <li>절대경로<p>도메인, 절대 변하지 않는 주소</p></li>
+    <li>상대경로<p>현재 내 파일 위치 기준으로 연결하는 파일 위치를 작성하는 것</p></li>
+  </ol>
+  <p><strong>링크 태그의 속성과 속성값</strong> </p>
+  <ul>
+    <li> <a </li>
+  </ul>
+</div>
