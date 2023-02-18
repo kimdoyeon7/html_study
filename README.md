@@ -86,6 +86,21 @@
   </ol>
   <p><strong>링크 태그의 속성과 속성값</strong> </p>
   <ul>
-    <li> <a </li>
+    <li> &lt;a href="" <em>target=""</em>&gt; = 링크 위치 표시 
+      <ul>
+        <li>_self = 현재창에표시</li>
+        <li>_blank = 새로운 창에 표시 가장 많이 사용</li>
+        <li>_parent 현재 창의 부모에 표시</li>
+        <li>_top = 최상단 창에 표시</li>
+      </ul>
+    </li>
+    <li> &lt;a href="" <em>download=""</em>&gt; = 다운로드링크 </li>
+    <li> lt;a <em>href="#id"</em>&gt; = 바로가기 링크 
+      <ul> 
+        &lt;a href="#go"&gt; 바로가기 &lt;/a&gt;<br>
+        &lt;div id="go"&gt;..&lt;div&gt;
+      </ul>
+    </li>
+    
   </ul>
 </div>
