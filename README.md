@@ -67,10 +67,14 @@
     <dd>&lt;div&gt; 는 css에서 공통된 효과를 주기 위해 필요함</dd>
     <dd>&lt;div&gt; 는 피그마에서 오토레이어 효과를 준 부분을 표현하는 태그 </dd>
     <dt>시맨틱태그는 총 11개가 있음 </dt>
-    <dd></dd>
-    <dd></dd>
-    <dd></dd>
-    <dd></dd>
   </dl>
 </div>
 
+<hr>
+
+<h2>23.02.17 - HTML - 링크, 이미지, 비디오 태그</h2>
+<ul>
+  <li>링크 태그 &lt;a&gt;&lt;/a&gt;</li>
+  <li>이미지 태그 &lt;img&gt; </li>
+  <li>비디오 태그 &lt;video&gt;</li>
+</ul>
