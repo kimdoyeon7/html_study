@@ -95,12 +95,32 @@
       </ul>
     </li>
     <li> &lt;a href="" <em>download=""</em>&gt; = 다운로드링크 </li>
-    <li> lt;a <em>href="#id"</em>&gt; = 바로가기 링크 
+    <li> &lt;a <em>href="#id"</em>&gt; = 바로가기 링크 
       <ul> 
         &lt;a href="#go"&gt; 바로가기 &lt;/a&gt;<br>
         &lt;div id="go"&gt;..&lt;div&gt;
       </ul>
     </li>
-    
   </ul>
 </div>
+<div>
+  <p><strong> 이미지 태그</strong></p>
+  <ul>
+    <li>url은 상대경로 방식으로 작성하는 것을 권장함</li>
+    <li><em>속성은 src="" 와 alt="" 가 있음</em>
+      <ul>
+        <li>src=""은 상대경로입력</li>
+        <li>alt=""은 시각장애인들에게 필요한 객관적인 내용의 대체 텍스트를 적음 </li>
+        <li>alt 사용을 위해 이미지태그는 의미전달이 필요한 이미지와 아닌 이미지를 구분하기</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
