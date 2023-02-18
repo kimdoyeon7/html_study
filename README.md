@@ -104,7 +104,7 @@
   </ul>
 </div>
 <div>
-  <p><strong> 이미지 태그</strong></p>
+  <p><strong> 이미지 태그 - 인라인태그</strong></p>
   <ul>
     <li>url은 상대경로 방식으로 작성하는 것을 권장함</li>
     <li><em>속성은 src="" 와 alt="" 가 있음</em>
@@ -123,6 +123,24 @@
        &lt;/figure&gt;  <br>
        문서 안 사진을 감싸는 틀, 이미지와 동떨어진 텍스트작성태그, <br>
        catpion부분에 텍스트 작성
+    </li>
+  </ul>
+</div>
+<div>
+  <p><strong>비디오태그 - 블록태그</strong></p>
+  <ul>
+    <li> &lt;video src=""&gt; ____ &lt;/video&gt;</li>
+    <li> 비디오태그 속성값 (___ 칸에 넣는)
+      <ul>
+        <li>autoplay</li>
+        <li>muted</li>
+        <li>controls</li>
+        <li>loop</li>
+      </ul>
+    </li>
+    <li>
+        잘 만든 웹은 동영상이 바로 재생되더라도 음소거 된 웹<br> 
+        때문에 비디오 태그에는 autoplay 와 muted 속성을 기본적으로 넣어야함.
     </li>
   </ul>
 </div>
