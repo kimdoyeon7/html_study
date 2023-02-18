@@ -115,6 +115,12 @@
       </ul>
     </li>
   </ul>
+  <p>
+    &lt;figure&gt;<br>
+     &lt;img <em>src="URL" alt=""</em>&gt; <br>
+     &lt;figcaption&gt;caption&lt;/figcaption&gt; <br>
+    &lt;/figure&gt; 는 문서 안 사진을 감싸는 틀, 이미지와 동떨어진 텍스트작성태그, catpion부분에
+  </p>
 </div>
 
 
