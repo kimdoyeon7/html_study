@@ -208,7 +208,7 @@
   <li>
     <figure>
     <img src="https://user-images.githubusercontent.com/125236689/219940729-b2a58617-ffbc-4866-920a-b2ee8d3a1aa8.png" alt=""><br>
-    <figcaption><em>와이어프레임</em></figcaption>
+    <figcaption><em>프로토타입</em></figcaption>
     </figure>
   </li>
 </ul>
