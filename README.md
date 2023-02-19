@@ -59,6 +59,8 @@
 
 
 
+
+
 <div class="study">
   <h2>23.02.16 - HTML - 시맨틱태크, 그룹태그</h2>
   <dl>
@@ -68,9 +70,28 @@
     <dd>&lt;div&gt; 는 피그마에서 오토레이어 효과를 준 부분을 표현하는 태그 </dd>
     <dt>시맨틱태그는 총 11개가 있음 </dt>
     <dd>
+      <ol>
+        <li>header</li>
+        <li>nav</li>
+        <li>section</li>
+        <li>aside</li>
+        <li>article</li>
+        <li>footer</li>
+        <li>figure</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
     </dd>
   </dl>
 </div>
+
+
+
+
+
+
 
 <hr>
 
