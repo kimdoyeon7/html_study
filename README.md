@@ -68,20 +68,32 @@
     <dd>&lt;div&gt; 는 속성에 class=""를 넣어 이름을 주어야함.</dd>
     <dd>&lt;div&gt; 는 css에서 공통된 효과를 주기 위해 필요함</dd>
     <dd>&lt;div&gt; 는 피그마에서 오토레이어 효과를 준 부분을 표현하는 태그 </dd>
-    <dt>시맨틱태그는 총 11개가 있음 </dt>
+    <dt>시맨틱태그(-블록태그)는 총 11개가 있음 </dt>
     <dd>
       <ol>
-        <li>header</li>
-        <li>nav</li>
-        <li>section</li>
-        <li>aside</li>
-        <li>article</li>
-        <li>footer</li>
-        <li>figure</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>&lt;header&gt;&lt;/header&gt;<br>
+            제목, 로고, 검색 폼, 작성자 이름 등의 요소도 포함</li>
+        <li>&lt;nav&gt;&lt;/nav&gt;<br>
+            다른 페이지로의 링크를 보여주는 구획을 나타냄. 자주 쓰이는 예제는 메뉴, 목차, 색인</li>
+        <li>&lt;section&gt;&lt;/section&gt;<br>
+            문서의 독립적인 구획을 나타내며 제목(H)을 포함하는 경우가 많음(필수x)</li>
+        <li>&lt;aside&gt;&lt;/aside&gt;<br>
+            사이드바 혹은 콜아웃 박스로 표현</li>
+        <li>&lt;article&gt;&lt;/article&gt;<br>
+            사이트 안에서 독립적으로 구분 / 게시판과 블로그 글, 매거진이나 뉴스 기사 </li>
+        <li>&lt;footer&gt;&lt;/footer&gt;<br>
+             구획의 작성자, 저작권 정보, 관련 문서 등의 내용</li>
+        <li>&lt;figure&gt; 이미지 &lt;figcaption&gt;설명&lt;/figcaption&gt;&lt;/figure&gt; <br> 
+            독립적인 콘텐츠를 표현/이미지 태그와 관련 o</li>
+        <li>&lt;details&gt; &lt;summary&gt;요약&lt;/summary&gt; 내용 &lt;/details&gt;<br>
+            *토글같은 기능을 하는 태그</li>
+        <li>&lt;main&gt;&lt;/main&gt;<br>
+            &lt;body&gt;의 주요 콘텐츠 <br>
+            문서의 핵심 주제나 앱의 핵심 기능에 직접적으로 연결됐거나 확장하는 콘텐츠</li>
+        <li>&lt;mark&gt;&lt;/mark&gt;<br>
+            현재 맥락에 관련이 깊거나 중요해 표시, 하이라이트한 부분</li>
+        <li>&lt; time detetime="날짜,시간"&gt;&lt;time&gt;<br>
+        적절한 검색 결과나, 알림 같은 특정 기능을 구현할 때 사용</li>
       </ol>
     </dd>
   </dl>
