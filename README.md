@@ -187,8 +187,12 @@
 <p>17일 배운 내용 재정리함.</p>
 <p>웹 접근성 로그인 페이지 이미지 제작함.</p>
 <ul>
-  <li> <img src="./과제/웹접근성연구소로그인과제" alt="참고자료"> </li>
-  <li><a href="./과제/0218 - 웹 접근성 로그인." target="_blank"> 완성파일</li>
+  <li>![웹접근성연구소 로그인 과제 - 틀](https://user-images.githubusercontent.com/125236689/219940566-9f730909-9816-4a47-a181-af8244b06d15.png)<br>
+    <em>참고자료</em>
+  </li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ul>
 
 
