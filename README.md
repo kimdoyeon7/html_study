@@ -262,14 +262,26 @@ meta : des 를 쳐서 자동완성 되도록하기</p>
 <p>&lt;td&gt;는 &lt;p&gt;와 같은 성질(내용) 즉 &lt;td&gt;의 제목열인 &lt;th&gt;(제목)를 넣어주어야함.</p>
 <p>&lt;tr&gt; 안에는 &lt;th&gt;가 최소 1개는 있어야함.</p>
  
+<p><strong> &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt; 행 그룹</strong></p>
 <ul>
-  <li>&lt;thead&gt; = &lt;th&gt; 위주로 구성된 제목행</li>
-  <li>&lt;tbody&gt; = 내용행 그룹
+  <li>&lt;thead&gt; = &lt;th&gt; 위주로 구성된 제목 행</li>
+  <li>&lt;tbody&gt; = 내용 행 그룹
     <ul>
       <li> &lt;tfoot&gt;을 &lt;thead&gt; 바로 밑에 놓으면 스크린리더기에서 바로 총 수량이 나올것임.
-           때문에 &lt;tfoot&gt;을 &lt;thead&gt; 바로 밑에 놓기 . 오류 뜨지만 무시하기
+           때문에 &lt;tfoot&gt;을 &lt;thead&gt; 바로 밑에 놓기<br> 오류 뜨지만 무시하기
         </li>
     </ul>
   </li>
   <li>&lt;tfoot&gt; = 결과 행을 묶을때 사용 (총수량, 합계)</li>
 </ul>
+
+<p><strong>속성 colspan rowspan - th, td</strong></p>
+
+<ul>
+  <li>가장 먼저 있는 태그에 속성값을 입력할 것</li>
+  <li>colspan은 하나의 &lt;tr&gt;에 있는 행을 합치는 것임.</li>
+  <li>rowspan은 여러 &lt;tr&gt; 속에 같은 위치에 있는 열을 합치는 것임.</li>
+  <li><em>이 속성은 초보자들은 표를 정상적으로 만든 후 나중에 처리하는 방식으로 하기</em></li>
+</ul>
+
+
