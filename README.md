@@ -216,5 +216,32 @@
 
 <hr>
 
+<h2>23.02.20-Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>태그명</th>
+      <th>의미</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">block</td>
+      <td>&lt;tr&gt;</td>
+      <td>가로행 태그</td>
+    </tr>
+    <tr>
+      <!--<td></td>-->
+      <td>&lt;td&gt;</td>
+      <td>내용(열)태그</td>
+    </tr>
+    <tr>
+      <!--<td></td>-->
+      <td>&lt;th&gt;</td>
+      <td>제목(열)태그</td>
+    </tr>
+  </tbody>
+</table>
 
 
