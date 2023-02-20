@@ -275,7 +275,7 @@ meta : des 를 쳐서 자동완성 되도록하기</p>
   <li>&lt;tfoot&gt; = 결과 행을 묶을때 사용 (총수량, 합계)</li>
 </ul>
 
-<p><strong>속성 colspan rowspan - th, td</strong></p>
+<p><strong>속성 colspan rowspan="숫자" - &lt;th&gt;, &lt;td&gt;에 사용하는 속성</strong></p>
 
 <ul>
   <li>가장 먼저 있는 태그에 속성값을 입력할 것</li>
@@ -284,4 +284,10 @@ meta : des 를 쳐서 자동완성 되도록하기</p>
   <li><em>이 속성은 초보자들은 표를 정상적으로 만든 후 나중에 처리하는 방식으로 하기</em></li>
 </ul>
 
-
+<p><strong>&lt;th scope="col또는row"&gt;</strong></p>
+<p>표의 읽기 방향 설정 속성임</p>
+<p>스크린리더기를 위해 필요한 속성임</p>
+<ul>
+  <li>col=수직</li>
+  <li>row=수평</li>
+</ul>
