@@ -303,10 +303,15 @@
     <label><input type="radio" name="quiz" value="id">1. id</label><br>
     <label><input type="radio" name="quiz" value="class">2. class</label><br>
     <label><input type="radio" name="quiz" value="name">3. name</label><br>
-      <span>다음 중 input type 속성 중 입력속성이 아닌 것은? </span> 
-
-      
-      
+      <span>다음 중 input type 속성 중 입력속성이 아닌 것은? 2개 </span> 
+      <label><input type="checkbox" name="quiz2" value="text">1. text</label><br>
+      <label><input type="checkbox" name="quiz2" value="password">2. password</label><br>
+      <label><input type="checkbox" name="quiz2" value="tel">3. tel</label><br>   
+      <label><input type="checkbox" name="quiz2" value="url">4. url</label><br>
+      <label><input type="checkbox" name="quiz2" value="email">5. email</label><br>
+      <label><input type="checkbox" name="quiz2" value="textarea">6. textarea</label><br>
+      <label><input type="checkbox" name="quiz2" value="checkbox">7. checkbox</label><br>
+       <label><input type="checkbox" name="quiz2" value="radio">8. radio</label><br>
   </fieldset>
 </form>
 
