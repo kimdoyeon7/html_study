@@ -314,6 +314,87 @@
        <label><input type="checkbox" name="quiz2" value="radio">8. radio</label><br>
   </fieldset>
 </form>
-
-
+<p><strong>Form 태그 기본&활용 공부</strong></p>
+  <ol>
+    <li>&lt;input&gt;</li>
+    <li>&lt;label&gt;</li>
+    <li>&lt;select&gt;</li>
+    <li>&lt;option&gt;</li>
+    <li>&lt;optgroup&gt;</li>
+    <li>&lt;reset&gt;</li>
+    <li>&lt;submit&gt;</li>
+    <li>&lt;button&gt;</li>
+   </ol> 
+<p><strong>&lt;input&gt;</strong></p>
+<p><strong>input type="" 에는 입력양식과 선택양식이 있음, type의 값</strong></p>
+<ul>
+  <li>입력양식
+    <ul>
+      <li>text</li>
+      <li>password</li>
+      <li>tel</li>
+      <li>number</li>
+      <li>url</li>
+      <li>email</li>
+      <li>textarea .. 등등</li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li>선택양식
+    <ul>
+      <li>checkbox</li>
+      <li>radio</li>
+      <li>option</li>
+      <li>select ..등등</li>
+    </ul>
+  </li>
+</ul>
+<p><strong>input의 속성에 들어가는 type를 제외한 다른 요소</strong></p>
+<ul>
+  <li>입력양식
+    <ul>
+      <li>name : 데이터 구분 명칭(그룹)</li>
+      <li>readyonly : 읽기전용</li>
+      <li>maxlength : 최대 글자 입력 수</li>
+      <li>placeholder : 제시된 텍스트 (활성화 시 제거)</li>
+      <li>value : 제시된 텍스느 (활성화 시 제거 X)</li>
+      <li>autofocus : 커서 자동 포커스 </li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li>선택양식
+    <ul>
+      <li>name : 데이터 구분 명칭(그룹)</li>
+      <li>checked : 미리선택</li>
+      <li>value : 값, 이름 </li>
+    </ul>
+  </li>
+</ul>
+<dl>
+  <dt>속성의 특징</dt>
+  <dd><em>readyonly, autofocus, checked 는 속성 값 필요 없음</em></dd>
+  <dd>autofocus는 html당 하나만 사용가능</dd>
+</dl>
+<p><strong>&lt;label&gt; - 인라인태그</strong></p>
+<p>편의성을 위한 태그 / 글자를 눌러도 체크가 되도록</p>
+<ol>
+  <li>&lt;label&gt; &lt;input&gt; &lt;/label&gt; </li>
+  <li>&lt;label&gt; &lt;/label&gt; &lt;input&gt; </li>
+   l>
+            <li>이 두가지 방법으로 인해서 css에서 차이가 날것임</li>
+            <li>두번째 방법일 경수 input 속성에 id 속성을 넣고, label 속성에 for를 넣어야 함 (같은값)</li>
+        </ul>
+    </ol>
+    <p><strong>select, option - 인라인태그</strong></p>
+    <p>select(ul) , option(li) 와 비슷</p>
+    <p><strong>optgroup- 인라인태그</strong></p>
+    <p>select의 자식, option의 부모로 사용</p>
+    <p>기능은 없음</p>
+    <p><strong>reset, submit, button - 인라인태그</strong></p>
+    <p><em>reset</em>양식 초기화</p>
+    <p><em>submit</em>가입하기와 같은 서버에 직접적인 영향을 주는 것</p>
+    <p><em>button</em>프로그래밍과 함께 다양한 용도의 범용 버튼으로 사용</p>
+    <p>예시 : &lt;button type="submit/reset/button"&gt;&lt;/button&gt;</p>
 
