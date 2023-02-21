@@ -358,7 +358,7 @@
       <li>readyonly : 읽기전용</li>
       <li>maxlength : 최대 글자 입력 수</li>
       <li>placeholder : 제시된 텍스트 (활성화 시 제거)</li>
-      <li>value : 제시된 텍스느 (활성화 시 제거 X)</li>
+      <li>value : 제시된 텍스 (활성화 시 제거 X)</li>
       <li>autofocus : 커서 자동 포커스 </li>
     </ul>
   </li>
@@ -382,19 +382,19 @@
 <ol>
   <li>&lt;label&gt; &lt;input&gt; &lt;/label&gt; </li>
   <li>&lt;label&gt; &lt;/label&gt; &lt;input&gt; </li>
-   l>
-            <li>이 두가지 방법으로 인해서 css에서 차이가 날것임</li>
-            <li>두번째 방법일 경수 input 속성에 id 속성을 넣고, label 속성에 for를 넣어야 함 (같은값)</li>
-        </ul>
-    </ol>
-    <p><strong>select, option - 인라인태그</strong></p>
-    <p>select(ul) , option(li) 와 비슷</p>
-    <p><strong>optgroup- 인라인태그</strong></p>
-    <p>select의 자식, option의 부모로 사용</p>
-    <p>기능은 없음</p>
-    <p><strong>reset, submit, button - 인라인태그</strong></p>
-    <p><em>reset</em>양식 초기화</p>
-    <p><em>submit</em>가입하기와 같은 서버에 직접적인 영향을 주는 것</p>
-    <p><em>button</em>프로그래밍과 함께 다양한 용도의 범용 버튼으로 사용</p>
-    <p>예시 : &lt;button type="submit/reset/button"&gt;&lt;/button&gt;</p>
+    <ul>
+      <li>이 두가지 방법으로 인해서 css에서 차이가 날것임</li>
+      <li>두번째 방법일 경수 input 속성에 id 속성을 넣고, label 속성에 for를 넣어야 함 (같은값)</li>
+    </ul>
+</ol>
+<p><strong>select, option - 인라인태그</strong></p>
+<p>select(ul) , option(li) 와 비슷</p>
+<p><strong>optgroup- 인라인태그</strong></p>
+<p>select의 자식, option의 부모로 사용</p>
+<p>기능은 없음</p>
+<p><strong>reset, submit, button - 인라인태그</strong></p>
+<p><em>reset</em>양식 초기화</p>
+<p><em>submit</em>가입하기와 같은 서버에 직접적인 영향을 주는 것</p>
+<p><em>button</em>프로그래밍과 함께 다양한 용도의 범용 버튼으로 사용</p>
+<p>예시 : &lt;button type="submit/reset/button"&gt;&lt;/button&gt;</p>
 
