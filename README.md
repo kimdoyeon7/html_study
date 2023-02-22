@@ -417,14 +417,24 @@
 <div>
   <p>&lt;ul&gt;, &lt;li&gt; 태그 사용해서 함</p> 
   <p>&lt;ul&gt; 속성에 class 넣음. (class="" 속성은 어느 태그에도 들어갈 수 있음.)</p>
-  <p>&lt;ul&gt; class를 넣은 이유는 &lt;ul&gt;를 &lt;div&gt;로 묶었으면 &lt;div&gt;에 class를 넣는데 &lt;div&gt;가 없어지면서 &lt;ul에게 양도?함</p>
+  <p>&lt;ul&gt; class를 넣은 이유는 &lt;ul&gt;를 &lt;div&gt;로 묶었으면 &lt;div&gt;에 class를 넣는데 &lt;div&gt;가 없어지면서 &lt;ul&gt;에게 양도?함</p>
   <p>&lt;div&gt;가 없어진 이유는 &lt;div&gt;와 &lt;ul&gt;이 같은 블록태그로 그룹이 중복되어서 &lt;div&gt;가 없어짐</p>
   <p><em>이 부분은 노션 19일차 부분 참고</em></p>
 </div>
 <div>
   <p><strong>웹 접근성 로그인 부분의 가장 하단 텍스트 영역 태그는?</strong></p>
   <p>&lt;div&gt;로 묶고, class=bottom_text 로 정함</p>
-  <p>나머지 텍스트는 &lt;p&gt;로 묶음. 여기서! &lt;p&gt;를 세개 사용한 이유는?</p>
+  <p>나머지 텍스트는 &lt;p&gt;로 묶음. <strong>여기서! &lt;p&gt;를 세개 사용한 이유는?</strong></p>
   <p>행간을 정확하고 세밀하게 조절하기 위해서는 p를 세개로 적는 것이 더 완성도 있는 태그이다.</p>
 </div>
-<p>현재페이지경로=브레드크럼, dl,dt,dd로 구성됨.</p><br>
+<dl>
+  <dt>현재페이지경로=브레드크럼, &lt;dl&gt;,&lt;dt&gt;,&lt;dd&gt;로 구성됨.</dt>
+  <dd>&lt;dt&gt;에 적는 제목은 css에서 지울 부분이 됨</dd>
+  <dd>브레드크럼에서 자주 보이는 화살표는 &lt;img&gt; 처리임</dd>
+  <dd>화살표는 의미가 없는 이미지 즉 alt 는 적지 않아도 됨. 생략이라는 말은 아님</dd>
+  <dd>
+    css에서 화살표를 제공할 수 있기 때문에 html에 생략가능한 태그임. <br>
+    <em>헷갈리지 않기 위해서는 작성하는 것이 도움이 됨</em>
+  </dd>
+</dl>
+
