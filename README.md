@@ -401,24 +401,30 @@
 <hr>
 
 <h2>23.02.12 - HTML 총 정리</h2>
-<p>&lt;aside&gt; 를 정리하는 방법은 두개</p>
+<p><strong>&lt;aside&gt;</strong> 를 정리하는 방법은 두개</p>
 <ul>
   <li> &lt;div&gt; &lt;a&gt;*3</li>
   <li>&lt;ul&gt; &lt;li&gt; &lt;a&gt;*3</li>
   <li><strong>하지만 첫번째 방법이 태그가 적기 때문에 오류 관리하기 편함</strong></li>
 </ul>
-<p>웹 접근성 로그인 중에서 회원가입하기, 아이디/비밀번호 찾기 는 &lt;a&gt; 태그로 관리 </p>
-<p>또한 가로 행 방향으로 태그가 두개 있으면 반드시 그룹으로 묶어주어야함.</p>
-<p>웹접근성로그인에서 아이디 비번 입력창 태그는</p>
+<div>
+  <dl>
+    <dt>웹 접근성 로그인 중에서 회원가입하기, 아이디/비번찾기는 &lt;a&gt;로 관리</dt>
+    <dd>또한 가로 행 방향으로 태그(블럭)이 두개 있으면 반드시 그룹으로 묶어주어야함(피그마처럼)</dd>
+  </dl>
+</div>
+<p><strong>웹접근성로그인에서 아이디 비번 입력창 태그는</strong></p>
 <div>
   <p>&lt;ul&gt;, &lt;li&gt; 태그 사용해서 함</p> 
   <p>&lt;ul&gt; 속성에 class 넣음. (class="" 속성은 어느 태그에도 들어갈 수 있음.)</p>
-  <p>&lt;ul&gt; class를 넣은 이유는 li를 div로 묶었으면 ul 말고 div에 class를 넣는데 div가 없어지면서 ul에게 양도?함</p>
+  <p>&lt;ul&gt; class를 넣은 이유는 &lt;ul&gt;를 &lt;div&gt;로 묶었으면 &lt;div&gt;에 class를 넣는데 &lt;div&gt;가 없어지면서 &lt;ul에게 양도?함</p>
+  <p>&lt;div&gt;가 없어진 이유는 &lt;div&gt;와 &lt;ul&gt;이 같은 블록태그로 그룹이 중복되어서 &lt;div&gt;가 없어짐</p>
   <p><em>이 부분은 노션 19일차 부분 참고</em></p>
 </div>
 <div>
-  <p>웹 접근성 로그인 부분의 가장 하단영역 태그는?</p>
+  <p><strong>웹 접근성 로그인 부분의 가장 하단 텍스트 영역 태그는?</strong></p>
   <p>&lt;div&gt;로 묶고, class=bottom_text 로 정함</p>
   <p>나머지 텍스트는 &lt;p&gt;로 묶음. 여기서! &lt;p&gt;를 세개 사용한 이유는?</p>
   <p>행간을 정확하고 세밀하게 조절하기 위해서는 p를 세개로 적는 것이 더 완성도 있는 태그이다.</p>
 </div>
+<p>현재페이지경로=브레드크럼, dl,dt,dd로 구성됨.</p><br>
