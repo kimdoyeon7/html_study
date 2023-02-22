@@ -398,3 +398,7 @@
 <p><em>button</em>프로그래밍과 함께 다양한 용도의 범용 버튼으로 사용</p>
 <p>예시 : &lt;button type="submit/reset/button"&gt;&lt;/button&gt;</p>
 
+<hr>
+
+<h2>23.02.12 - HTML 총 정리</h2>
+<p></p>
