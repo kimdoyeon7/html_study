@@ -484,3 +484,103 @@
 
 <h2>23.02.24 - CSS </h2>
 
+<h3>글꼴스타일 적용방법</h3>
+<p>글꼴스타일은 link로 연결되어있는 design.css에 적기</p>
+<p><em>@import는 맨 위에 적기, 선택자 안에는 font-family:'폰트이름'.'폰트종류'</em></p>
+<h3>rem단위</h3>
+<ul>
+  <li>rem 단위는 절대적인 단위</li>
+  <li>디바이스에 따라 달라지지 않음</li>
+  <li>em과 값은 같은 값임</li>
+</ul>
+<h3>line-height = 행간</h3>
+<ul>
+  <li>단위 = 없음</li>
+  <li>기준 숫자 = 1.5로 업 다운</li>
+  <li>작성법 = line-height:1.5;</li>
+</ul>
+<h3>letter-spacing = 자간</h3>
+<ul>
+  <li>단위 = em</li>
+  <li>기준 숫자 = -0.02em 업 다운(피그마에서 -2%)</li>
+  <li><sub>음수로 작성해야 가독성이 좋게 처리됨</sub></li>
+  <li>작성법 = letter-spacing:-0.02em;</li>
+</ul>
+<h3>폰트 관련해서 보편적으로 사용되는 전체적인 틀</h3>
+<p>=선택자 안에 font-family, font-size, line-height, letter-spacing 이 들어감</p>
+<h3>word-spacing 단어 간 간격</h3>
+<ul>
+  <li>단위 = em</li>
+  <li>기준 숫자 = -0.05 로 업 다운<br><sub>양수를 쓰는 방식으로 가독성 처리</sub></li>
+  <li>작성법 = word-spacing:-0.05em;</li>
+</ul>
+<h3>font-weight: ;</h3>
+<ul>
+  <li>단위 = 없음</li>
+  <li>기본 숫자 (설정하지 않을때 굵기) = 400</li>
+  <li>평균 400 , 굵게 700~900</li>
+</ul>
+<p><strong>font-style</strong></p>
+<ul>
+  <li>italic = 기울기</li>
+  <li>작성법 = font-style:italic;</li>
+</ul>
+<h3>대 소문자 변경법 </h3>
+<ul>
+  <li>text-transform:lowercase; = 소문자</li>
+  <li>text-transform:uppercase; = 대문자</li>
+  <li>text-transform:capitalize; = 앞 알파벳만 대문자</li>
+  <ul>
+    <li>이 속성을 넣고 싶지 않아서 html에서부터 제대로 작성하는 경우도 있음</li>
+    <li>captialize을 적용하려면 html에 소문자로 적혀있어야함</li>
+  </ul>
+</ul>
+<h3>밑줄과 취소선</h3>
+<ul>
+  <li>밑줄 = text-decoration:underline;</li>
+  <li>취소선 = text-decoration:line-through;</li>
+</ul>
+<h3>파비콘 favicon</h3>
+<ul>
+  <li>보편적인 크기는 96*96 180*180</li>
+  <li>1번 방법
+    <ol>
+      <li>피그마에서 원하는 크기로 프레임 미리 만들기</li>
+      <li>메뉴에서 resources - plugins - icon 검색</li>
+      <li>원하는거 정해서 프레임에 넣기 </li>
+      <li>export - .png 파일로 저장하기</li>
+    </ol>
+  </li>
+  <li>2번 방법
+    <ol>
+      <li>피그마에서 원하는 크기로 프레임 미리 만들기</li>
+      <li>www.flaticon.com 무료 이미지 다운</li>
+      <li>이름 변경해서 경로에 맞게 폴더에 저장</li>
+      <li>경로 링크 복사해서 입력하기</li>
+    </ol>
+  </li>
+  <li>번외 - 폰트어썸 - 반복적인 공통 아이콘 사용하는 법
+    <ol>
+      <li>www.cdnjs.com 접속</li>
+      <li>font-awesome 검색</li>
+      <li>맨 위 태그모양 눌러서 링크 복사</li>
+      <li>html 위 link 태그 부분에 붙여넣기</li>
+      <li>fontawesome 접속</li>
+      <li>영어로 검색 후 무료 이미지 선택 </li>
+      <li>&lt;i&gt; 복사 </li>
+      <li>삽입을 원하는 부분에 넣기</li>
+      <li><sub>이 방법으로 경로 화살표 삽입함</sub></li>
+    </ol>
+  </li>
+</ul>
+<h3>현재페이지 경로 숨기는 방법</h3>
+<ul>
+  <li>현재 페이지 경로 = dt 에 class="skip" 삽입</li>
+  <li>선택자로 .skip {display:none;}</li>
+  <li>reset.css 파일에 넣어놓기</li>
+</ul>
+<h3>활성화된 메뉴 색 변경하는 방법</h3>
+<ul>
+  <li>활성화 할 메뉴에 &lt;a&gt; 안에 class="active" 넣기</li>
+  <li>선택자로 .active {color:__;} </li>
+</ul>
