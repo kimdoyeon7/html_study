@@ -636,15 +636,17 @@
 <br>
 <h2>23.02.25 - HTML, CSS 복습</h2>
 <p>글꼴은 디자인 css 파일에 등록해야 한다. relgular는 기본값</p>
+<p><strong>글씨에 관련된 선택자 스타일 값!</strong></p>
 <p>글씨의 단위는 rem (절대값)</p>
 <p><strong>폰트 선택자에 대한 보편적으로 사용하는 값</strong><br>
 font-family , font-size , line-height(행간,양수), letter-spacing(자간,음수)</p>
 <p>line-height = 행간</p>
 <p>letter-spacing = 자간</p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p>word-spacing = 단어 사이 간격</p>
+<p>font-weight = 글꼴 굵기</p>
+<p>font-style:italic; = 기울기</p>
+<p><strong>대 소문자 변경법</strong><br>
+  text-transform:<em>lowercase(소문자)</em><em>uppercase(대문자)</em><em>capitalize(앞만 대문자)</em>
+</p>
+<p>text-decoration:underline; = 밑줄</p>
+<p>text-decoration:line-through; = 취소선</p>
