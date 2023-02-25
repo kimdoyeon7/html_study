@@ -636,4 +636,15 @@
 <br>
 <h2>23.02.25 - HTML, CSS 복습</h2>
 <p>글꼴은 디자인 css 파일에 등록해야 한다. relgular는 기본값</p>
-<p>글씨의 단위는 rem</p>
+<p>글씨의 단위는 rem (절대값)</p>
+<p><strong>폰트 선택자에 대한 보편적으로 사용하는 값</strong><br>
+font-family , font-size , line-height(행간,양수), letter-spacing(자간,음수)</p>
+<p>line-height = 행간</p>
+<p>letter-spacing = 자간</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
