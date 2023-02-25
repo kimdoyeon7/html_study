@@ -636,7 +636,7 @@
 <br>
 <h2>23.02.25 - HTML, CSS 복습</h2>
 <p>글꼴은 디자인 css 파일에 등록해야 한다. relgular는 기본값</p>
-<p><strong>글씨에 관련된 선택자 스타일 값!</strong></p>
+<h3>글씨에 관련된 선택자 스타일 값!</h3>
 <p>글씨의 단위는 rem (절대값)</p>
 <p><strong>폰트 선택자에 대한 보편적으로 사용하는 값</strong><br>
 font-family , font-size , line-height(행간,양수), letter-spacing(자간,음수)</p>
@@ -650,3 +650,9 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 </p>
 <p>text-decoration:underline; = 밑줄</p>
 <p>text-decoration:line-through; = 취소선</p>
+<h3>display 요소 표시 속성 3가지</h3>
+<p>block</p>
+<p>inline</p>
+<p>inline-block</p>
+<p><em>세가지 속성에 대해 정확하게 알기</em></p>
+<h3>margin-바깥쪽 여백, padding-안쪽여백</h3>
