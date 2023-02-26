@@ -663,9 +663,15 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <h3>html - 표태그 , table, thead, tbody,tfoot, <strong>th(제목),tr(행),td(열)</strong></h3>
 <p>ul-li 관계 처럼 tr(행) 안에 th, td 가 들어간다고 생각하기</p>
 <p><strong>tr(행)이 한줄씩 구성되며 표가 만들어지는 것임! 그래서 제목인 th 가 1개이상은 들어가야하는 것임</strong></p>
-<p>td는 p태그와 같은 성질 =  td의 제목열인 th를 넣어주어야함</p>
+<p><sup>td는 p태그와 같은 성질 =  td의 제목열인 th를 넣어주어야함</sup></p>
 <p>th 와 td를 무조건 tr에 넣는것이 아니라 표에서 제목이 들어가야하는 부분 th를 넣어야함. 최소 th 1개는 있어야함.</p>
 <p>tfoot을 thead 바로 밑에 놓으면 스크린리더기에서 바로 총 수량이 나올것임(오류지만 무시하기)</p>
+<ul>행/열 병합
+  <li>th,td에 사용하는 속성</li>
+  <li>속성 사용 후에는 내가 지우고자 하는 부분만큼 주석처리 또는 삭제</li>
+  <li>colspan = 같은 행(tr) 병합 , (→ 옆방향)</li>
+  <li>rowspan = 같은 열(th,td) 병합, (↓ 아래방향)</li>
+</ul>
 <p></p>
 <p></p>
 <p></p>
