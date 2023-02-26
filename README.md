@@ -679,3 +679,6 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li>col = 수직</li> 
   <li>row = 수평</li>
 </ul>
+<h3>form 양식</h3>
+<p>&lt;form action="#" method=""&gt;&lt;/form&gt;</p>
+<p>&lt;fieldset&gt;&lt;legend&gt;그룹제목&lt;/legend&gt;&lt;/fieldset&gt; - form 안에 들어가는 기본 태그</p>
