@@ -659,7 +659,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>margin - 요소로부터의 바깥쪽</p>
 <p>padding - (선택박스처럼)요소 바깥에서부터 요소까지! </p>
 
-<h2>23.02.26 - html, css</h2>
+<h2>23.02.26 - html, css 복습</h2>
 <h3>html - 표태그 , table, thead, tbody,tfoot, <strong>th(제목),tr(행),td(열)</strong></h3>
 <p>ul-li 관계 처럼 tr(행) 안에 th, td 가 들어간다고 생각하기</p>
 <p><strong>tr(행)이 한줄씩 구성되며 표가 만들어지는 것임! 그래서 제목인 th 가 1개이상은 들어가야하는 것임</strong></p>
