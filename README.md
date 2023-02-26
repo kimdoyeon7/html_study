@@ -660,3 +660,5 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>padding - (선택박스처럼)요소 바깥에서부터 요소까지! </p>
 
 <h2>23.02.26 - html, css</h2>
+<h3>html - 표태그 , table, thead, tbody,tfoot, <strong>th(제목),tr(행),td(열)</strong></h3>
+<p>ul-li 관계 처럼 tr 안에 th, td 가 들어간다고 생각하기</p>
