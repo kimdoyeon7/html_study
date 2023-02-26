@@ -659,7 +659,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>margin - 요소로부터의 바깥쪽</p>
 <p>padding - (선택박스처럼)요소 바깥에서부터 요소까지! </p>
 
-<h2>23.02.26 - html, css 복습</h2>
+<h2>23.02.26 - html 복습</h2>
 <h3>html - 표태그 , table, thead, tbody,tfoot, <strong>th(제목),tr(행),td(열)</strong></h3>
 <p>ul-li 관계 처럼 tr(행) 안에 th, td 가 들어간다고 생각하기</p>
 <p><strong>tr(행)이 한줄씩 구성되며 표가 만들어지는 것임! 그래서 제목인 th 가 1개이상은 들어가야하는 것임</strong></p>
@@ -682,3 +682,30 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <h3>form 양식</h3>
 <p>&lt;form action="#" method=""&gt;&lt;/form&gt;</p>
 <p>&lt;fieldset&gt;&lt;legend&gt;그룹제목&lt;/legend&gt;&lt;/fieldset&gt; - form 안에 들어가는 기본 태그</p>
+<p>&lt;input type=속성 &gt;</p>
+<p><sup>type에는 입력양식, 선택양식 이 있음</sup></p>
+<ul>입력양식일 경우 사용할 수 있는 속성은?
+  <li>name</li>
+  <li>readonly = 약관같은거</li>
+  <li>maxlength</li>
+  <li>placeholder</li>
+  <li>value = 이거쓰면 칸에서 안지워짐</li>
+  <li>autofocus = 한페이지당 하나 자동커서</li>  
+</ul>
+<ul>선택양식일 경우 사용할 수 있는 속성은?
+  <li>name</li>
+  <li>checked = 미리선택</li>
+  <li>value = 데이터구분목적명칭</li>
+</ul>
+<p>&lt;label&gt; 편의기능 = 글자클릭해도 선택되는거</p>
+<ul>목록 select, option
+  <li>쇼핑몰에서 자주 사용되는 것</li>
+  <li>선택양식임 그래서 속성도 같이 사용 가능</li>
+  <li></li>
+</ul>
+<ul>&lt;button type="<em>submit</em>"&gt;&lt;/button&gt;
+  <li>submit = 양식 전송</li>
+  <li>reset = 초기화</li>
+  <li>button = 다양한 용도사용</li>
+  <li></li>
+</ul>
