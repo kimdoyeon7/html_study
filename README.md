@@ -672,8 +672,10 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li>colspan = 같은 행(tr) 병합 , (→ 옆방향)</li>
   <li>rowspan = 같은 열(th,td) 병합, (↓ 아래방향)</li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<ul>행과 열 범위 지정 &lt;th scope=""&gt;
+  <li>스크린리더기를 위해 필요한 속성값임</li>
+  <li><em>th</em>에만 사용함. &lt;td&gt;는 내용이기 때문에 안넣음</li>
+  <li>표의 읽기 방향 설정 속성임</li>
+  <li>col = 수직</li> 
+  <li>row = 수평</li>
+</ul>
