@@ -726,7 +726,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>float 특성 상 부유효과가 있음<br> 즉 부모의 높이가 따로 안 들어가면 부모높이인식이 안됨 </p>
 <p>이를 위해 세가지 부유효과 제거 방법이 있음</p>
 <ul>
-  <li>높이 설정하기 : 부모 {height:px}</li>
-  <li>부모:after {content:""; display:block; clear:both;}</li>
-  <li>부모 {overflow:hidden;}</li>
+  <li>높이 설정하기 = 부모 {height:px}</li>
+  <li>가상클래스 선택자 생성 = 부모:after {content:""; display:block; clear:both;}</li>
+  <li>영역 인식 =  부모 {overflow:hidden;}</li>
 </ul>
