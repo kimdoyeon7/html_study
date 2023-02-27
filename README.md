@@ -710,5 +710,8 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li></li>
 </ul>
 
+<hr>
+
 <h2>23.02.27 - css , test</h2>
-<h3>CSS </h3>
+<h3>float 기본과 활용 </h3>
+<sup>기본적인 모양을 알아야함.</sup>
