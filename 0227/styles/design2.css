@@ -1,0 +1,32 @@
+.wrap {
+    background-color: aqua;
+    width:500px;
+    /* 자식에 float 적용 시 생기는 부모 오류해결법 */
+    /* 1. 높이강제부여 */
+    /* height:100px; */
+    /* 2. 자식높이재인식 */
+    /* overflow:hidden; */
+}
+/* 3. 가상자식생성 */
+.wrap::after {clear:both; display:block; content:'d';}
+.wrap .a {
+    border:5px solid red;
+    float:left;
+}
+.wrap .b {
+    border:5px solid blue;
+    float:right;
+}
+.wrap .c {
+    border:5px solid green;
+    float:left;
+    /* clear:both; 이전 형제 float 위치 제거 → 새로운 행 선언 */
+}
+.wrap .a, .wrap .b, .wrap .c {
+    width:100px; height:100px;
+    background-color : yellow;
+}
+.next {
+    width:500px; height:250px;
+    background-color:gold;
+}

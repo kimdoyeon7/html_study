@@ -1,0 +1,34 @@
+header {
+    background-color: aqua;
+    /* overflow:hidden; */
+    /* height:100px; */
+}
+header::after {clear:both; content:''; display:block;}
+header h1 {
+    background-color: gray;
+    float:left;
+}
+header form {
+    background-color: greenyellow;
+    float:left;
+    
+}
+header .lnb {
+    background-color: pink;
+    float:right;
+    
+}
+header .lnb a {}
+header h1, header form, header .lnb {width:100px; height:100px;}
+main {}
+main .path {}
+main .path .skip {}
+main .path dd {}
+main .path dd span {}
+main .path dd span::after {
+    display:inline; content:'\f105';
+}
+main .path .blog span::after,
+main .path .blog span::before {
+    display:inline; content:'\f105';
+}
