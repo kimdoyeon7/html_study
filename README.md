@@ -745,21 +745,28 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
     </ul>
   </li>
 </ul>
+
 <p>도형 겹치게 두려면 margin 값을 음수로 주기</p>
-<ul>정확하게 이해해야함!
-  <li><sup>블럭태그 위치 선정을 할때 필요한 값들</sup></li>
-  <li>글자수가 다를 때 = float , 글자 수가 같을 때 = inline block</li>
-  <li>왜냐? inline 특성상 내용만큼 인식, 글자수가 다르면 이상해짐 , 그래서 똑같은 효과를 주려고 float를 씀</li>
-  <li>
-    float를 쓰면 반자동적으로 overflow:hidden; 이 부모에 주어져야하는데 여기서! 같은 기능을 하는 것은!<br>
-    부모에게 display:inline-block를 주는 것도 가능! (자식이 아닌 부모!)
-  </li>
-</ul>
+
+<p>
+  <strong>
+    <ul>정확하게 이해해야함!
+      <li><sup>블럭태그 위치 선정을 할때 필요한 값들</sup></li>
+      <li>글자수가 다를 때 = float , 글자 수가 같을 때 = inline block</li>
+      <li>왜냐? inline 특성상 내용만큼 인식, 글자수가 다르면 이상해짐 , 그래서 똑같은 효과를 주려고 float를 씀</li>
+      <li>
+        float를 쓰면 반자동적으로 overflow:hidden; 이 부모에 주어져야하는데 여기서! 같은 기능을 하는 것은!<br>
+        부모에게 display:inline-block를 주는 것도 가능! (자식이 아닌 부모!)
+      </li>
+    </ul>
+  </strong>
+</p>
   
 <h3>메뉴 사이 여백</h3>
 <p>메뉴의 왼쪽에 여백을 준다 = padding-left</p>
 <p>이렇게 되면 마지막 메뉴에도 필요없는 여백이 생기니 제거해야함</p>
 <p>개별 선택자를 만들어서 padding 값을 0 을 주어야함.</p>
+
 <h3>수열선택자</h3>
 <ul>종류1. 부모의 배치된 형제 순서에 따라 대상선택 <br>/ 원하는 대상을 a에 놓고 부모기준으로 n을 적기
   <li>a:nth-child(n) = a는 형제를 선택</li>
