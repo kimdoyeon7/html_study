@@ -746,7 +746,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   </li>
 </ul>
 <p>도형 겹치게 두려면 margin 값을 음수로 주기</p>
-<ul><strong>정확하게 이해해야함!<strong>
+<ul>정확하게 이해해야함!
   <li><sup>블럭태그 위치 선정을 할때 필요한 값들</sup></li>
   <li>글자수가 다를 때 = float , 글자 수가 같을 때 = inline block</li>
   <li>왜냐? inline 특성상 내용만큼 인식, 글자수가 다르면 이상해짐 , 그래서 똑같은 효과를 주려고 float를 씀</li>
@@ -782,4 +782,3 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li>last-of-type </li>
   <li>ath-last-of-type(n) = a와 동일요소에서 마지막에서부터 n번째 선택</li>
 </ul>
-<p>수열선택자</p>
