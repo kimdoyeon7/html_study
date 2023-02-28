@@ -3,7 +3,7 @@ main {
     margin:0 auto;
 }
 main .top {
-    border: 2px solid gray;
+    border: 1px solid gainsboro;
     height:100px;    
 }
 main .top h1 {
@@ -33,24 +33,25 @@ main .top dl dd em {
 }
 main .top dl .a {padding-right:10px;}
 main section {
-    border: 2px solid gray;
+    border: 1px solid gainsboro;
     border-top:none;
     padding:100px 25px;
 }
 main section h2 {
-    color:blue;
+    color:darkblue;
     font-size:1.063rem;
-    margin-right:10px;
+    font-weight:700;
 }
+
 main section h2 i{
-    color:blue;
+    color:darkblue;
     font-size:1.063rem;
-    margin-right:10px;
+    margin-right:20px;
     
 }
 main section p {
     margin:50px 0;
-    line-height:1.3;
+    line-height:1.7;
 }
 main section p em {color:green; /* font-size:1.875rem; */}
 main section .big_name, main section .big_name em {
