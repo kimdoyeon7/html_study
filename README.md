@@ -733,4 +733,17 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <hr>
 
 <h2>23.02.28 - css </h2>
+<p>내가 원하는 박스(시멘틱태그=피그마에서 그룹)를 가운데로 옮기고 싶을때는</p>
+<p>margin:0 auto; = 사용자가 보고 있는 크기가 얼마일지 모르기 때문에 자동 계산 되는 auto 사용</p>
+<sup>블록태그일 경우만 가능. 인라인은 크기랑 여백 인식 못해서</sup>
+<ul>글자를 가운데로 옮기고 싶을 땐?
+  <li>부모 선택자에게 text-align:center</li>
+  <li>이건 inline 가운데 정렬임 / 즉 수평으로만 가운데 (수직가운데도 줘야지 블럭의 한 가운데 있을 수 있음)
+    <ul>중앙으로 오기 위해서는
+      <li>line-height:100px (100은 블럭의 height 만큼) </li>
+      <li><sup>주의점! 글이 한줄일때만 ! 행간값으로 줌 </sup></li>
+      <li><sup>padding-top도 가능 </sup></li>
+    </ul>
+  </li>
+</ul>
 
