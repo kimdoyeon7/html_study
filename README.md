@@ -757,5 +757,5 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 </ul>
   
 <h3>메뉴 사이 여백</h3>
-  <p>
-  </p>
+<p>메뉴의 왼쪽에 여백을 준다 = padding-left</p>
+<p></p>
