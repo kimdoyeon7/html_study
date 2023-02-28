@@ -760,6 +760,26 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>메뉴의 왼쪽에 여백을 준다 = padding-left</p>
 <p>이렇게 되면 마지막 메뉴에도 필요없는 여백이 생기니 제거해야함</p>
 <p>개별 선택자를 만들어서 padding 값을 0 을 주어야함.</p>
-  <ul>
-    <li></li>
-  </ul>
+<h3>수열선택자</h3>
+<ul>종류1. 부모의 배치된 형제 순서에 따라 대상선택 <br>/ 원하는 대상을 a에 놓고 부모기준으로 n을 적기
+  <li>a:nth-child(n) = a는 형제를 선택</li>
+  <li><sup>여기서 자식이 외동인 경우에는 부모를 a에 적기</sup></li>
+  <li>first-child (자동으로 첫번째 자식 선택)</li>
+  <li>last-child (자동으로 마지막 자식 선택)</li>
+  <li>nth-last-child(n) (마지막에서 n번째 자식 선택)</li>
+  <li>nth-child(even/odd/3n+1)
+    <ul>
+      <li>even = 짝수</li>
+      <li>odd = 홀수</li>
+      <li>an = a의 배수</li>
+      <li>an+1 = a의 배수인데 무조건 a부터 시작이 아니라 1번부터 시작 (숫자가 배수의 시작점을 뜻함)</li>
+    </ul>
+  </li>
+</ul>
+<ul>종류2. 형제그룹사이에서 자신과 동일한 요소만 보고 순서 선택
+  <li>a:nth-of-type(n) = a랑 똑같은 태그 순서대로 n에 적기</li>
+  <li>first-of-type</li>
+  <li>last-of-type </li>
+  <li>ath-last-of-type(n) = a와 동일요소에서 마지막에서부터 n번째 선택</li>
+</ul>
+<p>수열선택자</p>
