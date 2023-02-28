@@ -737,13 +737,25 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>margin:0 auto; = 사용자가 보고 있는 크기가 얼마일지 모르기 때문에 자동 계산 되는 auto 사용</p>
 <sup>블록태그일 경우만 가능. 인라인은 크기랑 여백 인식 못해서</sup>
 <ul>글자를 가운데로 옮기고 싶을 땐?
-  <li>부모 선택자에게 text-align:center</li>
+  <li>선택자에게 text-align:center 삽입 <br> <q>이 수식은 인라인에게 영향을 주는 값</q></li>
   <li>이건 inline 가운데 정렬임 / 즉 수평으로만 가운데 (수직가운데도 줘야지 블럭의 한 가운데 있을 수 있음)
     <ul>중앙으로 오기 위해서는
       <li>line-height:100px (100은 블럭의 height 만큼) </li>
       <li><sup>주의점! 글이 한줄일때만 ! 행간값으로 줌 </sup></li>
-      <li><sup>padding-top도 가능 </sup></li>
     </ul>
   </li>
 </ul>
-
+<p>도형 겹치게 두려면 margin 값을 음수로 주기</p>
+<ul><strong>정확하게 이해해야함!<strong>
+  <li><sup>블럭태그 위치 선정을 할때 필요한 값들</sup></li>
+  <li>글자수가 다를 때 = float , 글자 수가 같을 때 = inline block</li>
+  <li>왜냐? inline 특성상 내용만큼 인식, 글자수가 다르면 이상해짐 , 그래서 똑같은 효과를 주려고 float를 씀</li>
+  <li>
+    float를 쓰면 반자동적으로 overflow:hidden; 이 부모에 주어져야하는데 여기서! 같은 기능을 하는 것은!<br>
+    부모에게 display:inline-block를 주는 것도 가능! (자식이 아닌 부모!)
+  </li>
+</ul>
+  
+<h3>메뉴 사이 여백</h3>
+  <p>
+  </p>
