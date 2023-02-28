@@ -729,3 +729,8 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li>가상클래스 선택자 생성 = 부모:after {content:""; display:block; clear:both;}</li>
   <li>영역 인식 =  부모 {overflow:hidden;}</li>
 </ul>
+
+<hr>
+
+<h2>23.02.28 - css </h2>
+
