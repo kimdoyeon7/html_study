@@ -758,4 +758,8 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   
 <h3>메뉴 사이 여백</h3>
 <p>메뉴의 왼쪽에 여백을 준다 = padding-left</p>
-<p></p>
+<p>이렇게 되면 마지막 메뉴에도 필요없는 여백이 생기니 제거해야함</p>
+<p>개별 선택자를 만들어서 padding 값을 0 을 주어야함.</p>
+  <ul>
+    <li></li>
+  </ul>
