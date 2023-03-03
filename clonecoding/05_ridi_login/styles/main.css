@@ -1,0 +1,87 @@
+/* #1f8ce6 #f7fbff #ccc #ebf6ff */
+/* 제목,내용 : 12px(0.750em) 14px(0.875em) 16px(1.000em) */
+body {
+    background-color: #ebf6ff; 
+    text-align: center;
+}
+header {
+    margin:20px 0 0 0; 
+    padding-bottom:20px; 
+    border-bottom:1px solid #ccc;
+}
+header h1 {}
+header h1 a {
+    color:#1f8ce6; 
+    font-weight:700;
+    letter-spacing:-0.02em;
+}
+main {
+    display: inline-block;
+    /* background-color: pink; */
+    margin:40px 0;
+}
+main #loginFrm {    
+    border:1px solid #ccc;
+    border-radius: 10px;}
+main #loginFrm fieldset {}
+/* main #loginFrm fieldset legend {} */
+/* 로그인양식 */
+main #loginFrm fieldset ul {
+    border-radius: 10px;
+    overflow: hidden;
+}
+main #loginFrm fieldset ul li {
+    background-color:#f7fbff; line-height:30px;
+    border-top:1px solid #ccc;
+}
+main #loginFrm fieldset ul li:first-child {border:none;}
+main #loginFrm fieldset ul li input[name$=id] {
+    width:350px; height:50px; padding:0 0 0 10px;
+    border:none;
+    font-size:0.875rem;
+    outline:none;
+}
+/* outline:none; */
+main #loginFrm fieldset ul li input[name$=pw] {
+    width:350px; height:50px; padding:0 0 0 10px;
+    border:none;
+    font-size:0.875rem;
+    outline:none;
+}
+/* 로그인옵션 */
+main #loginFrm fieldset ul .loOption {
+    background-color: #f7fbff; 
+    /* line-height: 30px; */
+    /* margin:0 10px; */
+    padding:10px;
+    overflow:hidden;
+}
+main #loginFrm fieldset ul .loOption label {float:left;}
+main #loginFrm fieldset ul .loOption label #login_y {margin: 0 10px;}
+main #loginFrm fieldset ul .loOption label span {
+    font-size: 0.75rem; color:gray; 
+}
+main #loginFrm fieldset ul .loOption span {font-size: 0.75rem; float:right;}
+main #loginFrm fieldset ul .loOption > span {}
+main #loginFrm fieldset ul .loOption span a {}
+main #loginFrm fieldset ul .loOption > span a {}
+main #loginFrm fieldset ul .loOption > span a:first-child::after {content:'|'; display:inline; padding-left:5px; color:#ccc;}
+/* 로그인 회원가입 버튼 */
+main .btn {margin:10px 0 0 0;}
+main .btn button[type^=but] {background-color: #1f8ce6 ; border-radius: 5px; color:#fff;}
+main .btn a {background-color: #fff; border-radius: 5px; line-height:45px; }
+main .btn button[type^=but],
+main .btn a {
+    margin:0 auto;
+    display:block;
+    width:350px; height:45px;
+    margin-top:5px;
+}
+
+
+
+
+/* 속성선택자 */
+/* input[type=text] {background-color: aqua;}
+input[name*=id] {background-color: coral;}
+button[type^=but] {background-color: blue;} */
