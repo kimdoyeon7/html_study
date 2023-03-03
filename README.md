@@ -789,3 +789,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li>last-of-type </li>
   <li>ath-last-of-type(n) = a와 동일요소에서 마지막에서부터 n번째 선택</li>
 </ul>
+
+<h2>23.03.02 -  CSS 총 정리</h2>
+<h2>23.03.03 - 위치속성, </h2>
+<h2>23.03.04 - GTQ</h2>
