@@ -1,0 +1,52 @@
+.notice {
+    width:495px; background-color: aqua;
+    border:1px solid #ccc; border-radius:10px;
+    padding:25px 20px 40px 25px;
+    position:relative;
+}
+.notice h2 {
+    font-size: 1.2rem; letter-spacing:-0.02em; font-weight:700;
+    margin-bottom:30px;
+}
+.notice .more {
+    position:absolute; right:20px; top:25px;
+}
+.notice ul {
+    background-color: yellow;
+    margin-left:100px;
+}
+.notice ul li {
+    padding:7px 0; position: relative;
+}
+.notice ul li::after {
+    clear:both; content:''; display:inline-block;
+}
+.notice ul li::before {
+    content:''; display:inline-block;
+    background-color: red; border-radius:50%;
+    width:5px; height:5px; 
+    position:absolute; top:13px; left:-15px;
+}
+.notice ul li a {
+    float:left; background-color: lime;
+    width:70%;
+    white-space:nowrap;/* 한줄처리(개행x) */
+    overflow:hidden;/* 정해진 크기 안에서만 보이기 */
+    text-overflow:ellipsis;/* 외부처리를 말줄임... */
+}
+.notice ul li span {float: right;}
+footer {}
+footer a {margin-right:10px;}
+footer a:nth-child(3) {color:blue;}
+footer a::after {
+    /* content:'|'; display:inline-block; 
+    color:black;
+    padding-left:10px; */
+    /* 위 방법 단점:글자크기보다 작거나 크게 할 수 없다.(디자인다양성부족) */
+    width:1px; height:15px; border-radius: 50%;
+    background-color: red;
+    content:''; display:inline-block;
+    position: relative; right:-7px; top:2px;
+}
+/* footer a:last-child::after {content:'';} */
+footer a:last-child::after {display:none;}
