@@ -791,9 +791,10 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 </ul>
 
 <h2>23.03.02 -  CSS 총 정리</h2>
-<h2>23.03.03 - 위치속성, 속성선택자, 카멜표기법</h2>
-<p>카멜표기법 = 언더바위치에 언더바 대신 두번째 단어의 앞부분을 대문자로 바꾸어 표기하는 방법<br>ex)loginFrm </p>
-<ul>속성선택자
+<h2>23.03.03 - 위치속성, 속성선택자, 카멜표기법, 구분선 넣는 방법</h2>
+<h3>카멜표기법 = 언더바위치에 언더바 대신 두번째 단어의 앞부분을 대문자로 바꾸어 표기하는 방법<br>ex)loginFrm </h3>
+<h3>속성선택자</h3>
+<ul>
 	<li>이미 의미를 가지고 있는 태그에 클래스를 주지 않고 자체적인 ‘데이터 구분용’ 이름을 통해서 선택자를 만들 수 있다는 것이 큰 특징임.</li>
   <li>선택자[속성=값]  속성의 값이 모두 일치할 때 선택</li>
 	<li>선택자[속성^=값] 속성의 값이 이것으로 시작할 때 선택</li>
@@ -802,3 +803,8 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 	<li>선택자 대상으로는 input, button 등의 태그가 있다.</li>
 </ul>
 <h3>위치속성 position </h3>
+<ul>
+	<li>position : relative</li>
+	<li>position : absolute</li>
+	<li>position : fixed</li>
+</ul>
