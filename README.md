@@ -790,7 +790,18 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li>ath-last-of-type(n) = a와 동일요소에서 마지막에서부터 n번째 선택</li>
 </ul>
 
-<h2>23.03.02 -  CSS 총 정리</h2>
+<h2>23.03.02 -  CSS 총 정리 + 배경이미지</h2>
+<p>text-align 값은 가장 근접한 선택자에 넣는 것이 안전</p>
+<p>가장 위에 주석으로 폰트크기나 색깔을 등록해 놓으면 편함</p>
+<ul>
+  <li>배경이미지 background-image:url(상대경로) 두개이상 연결하려면 ,url() (색깔보다 사진이 우선순위)</li>
+  <li>이미지 반복 background-repeat:no-repeat; or repeat-x; or repeat-y;  (기본값은 repeat)</li>
+  <li>이미지 고정 background-attachment: fixed; or scroll;</li>
+  <li>이미지 크기 background-size:contain; or 100% or cover; or 1400px </li>
+  <li><strong>배경 통합 속성</strong><br>color, image, repeat, attachment, position </li>
+</ul>
+
+
 <h2>23.03.03 - 위치속성, 속성선택자, 카멜표기법, 구분선 넣는 방법, 말줄임처리</h2>
 <h3>카멜표기법 = 언더바위치에 언더바 대신 두번째 단어의 앞부분을 대문자로 바꾸어 표기하는 방법<br>ex)loginFrm </h3>
 <h3>속성선택자</h3>
@@ -805,27 +816,27 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <h3>위치속성 position </h3>
 <p>포지션을 사용할 때는 태그의 순서와 상관 없이 위치를 움직이고 싶거나 누군가의 위치를 기준으로 움직여야할때임.</p>
 <ul>
-	<li>position : relative
-		<ul>
-			<li>현재 내 위치에서 움직이겠다는 뜻</li>
-			<li>숫자는 음수도 가능</li>
-			<li>x축 y축 한번만 작성 (0일때는 단위작성 x)</li>
-		</ul>
-	</li>
-	<li>position : absolute
-		<ul>가장 주의해서 사용하기
-			<li>부모기분으로 움직임</li>
-			<li><strong>부모 중 포지션을 갖고 있는 부모를 기준삼음</strong></li>
-			<li>그래서 absolute를 단독으로 사용할 수 없음</li>
-		</ul>
-	</li>
-	<li>position : fixed
-		<ul>
-			<li>웹브라우저 위치에 고정</li>
-			<li>팝업 요소에 주로 사용</li>
-			<li>body를 기준으로 위치가 정해짐</li>
-		</ul>
-	</li>
+  <li>position : relative
+    <ul>
+      <li>현재 내 위치에서 움직이겠다는 뜻</li>
+      <li>숫자는 음수도 가능</li>
+      <li>x축 y축 한번만 작성 (0일때는 단위작성 x)</li>
+    </ul>
+  </li>
+    <li>position : absolute
+      <ul>가장 주의해서 사용하기
+        <li>부모기분으로 움직임</li>
+        <li><strong>부모 중 포지션을 갖고 있는 부모를 기준삼음</strong></li>
+        <li>그래서 absolute를 단독으로 사용할 수 없음</li>
+      </ul>
+    </li>
+  <li>position : fixed
+    <ul>
+      <li>웹브라우저 위치에 고정</li>
+      <li>팝업 요소에 주로 사용</li>
+      <li>body를 기준으로 위치가 정해짐</li>
+    </ul>
+  </li>
 </ul>
 <h3>구분선 넣는 방법</h3>
 <p>가상선택자 선택하기</p>
