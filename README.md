@@ -791,7 +791,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 </ul>
 
 <h2>23.03.02 -  CSS 총 정리</h2>
-<h2>23.03.03 - 위치속성, 속성선택자, 카멜표기법, 구분선 넣는 방법</h2>
+<h2>23.03.03 - 위치속성, 속성선택자, 카멜표기법, 구분선 넣는 방법, 말줄임처리</h2>
 <h3>카멜표기법 = 언더바위치에 언더바 대신 두번째 단어의 앞부분을 대문자로 바꾸어 표기하는 방법<br>ex)loginFrm </h3>
 <h3>속성선택자</h3>
 <ul>
@@ -803,8 +803,41 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 	<li>선택자 대상으로는 input, button 등의 태그가 있다.</li>
 </ul>
 <h3>위치속성 position </h3>
+<p>포지션을 사용할 때는 태그의 순서와 상관 없이 위치를 움직이고 싶거나 누군가의 위치를 기준으로 움직여야할때임.</p>
 <ul>
-	<li>position : relative</li>
-	<li>position : absolute</li>
-	<li>position : fixed</li>
+	<li>position : relative
+		<ul>
+			<li>현재 내 위치에서 움직이겠다는 뜻</li>
+			<li>숫자는 음수도 가능</li>
+			<li>x축 y축 한번만 작성 (0일때는 단위작성 x)</li>
+		</ul>
+	</li>
+	<li>position : absolute
+		<ul>가장 주의해서 사용하기
+			<li>부모기분으로 움직임</li>
+			<li><strong>부모 중 포지션을 갖고 있는 부모를 기준삼음</strong></li>
+			<li>그래서 absolute를 단독으로 사용할 수 없음</li>
+		</ul>
+	</li>
+	<li>position : fixed
+		<ul>
+			<li>웹브라우저 위치에 고정</li>
+			<li>팝업 요소에 주로 사용</li>
+			<li>body를 기준으로 위치가 정해짐</li>
+		</ul>
+	</li>
+</ul>
+<h3>구분선 넣는 방법</h3>
+<p>가상선택자 선택하기</p>
+<p>content:'|'; display:inline-block; color:black; padding-left:10px </p>
+<p>위의 가상 선택자의 단점은 구분선의 크기가 글자의 크기와 같아짐</p>
+<p>좋은 방법은! (선이 아닌 면을 주는것)</p>
+<p><strong> content:''; display:inline-block; width:2px; height:5px; background-color:red; </strong></p>
+<p><strong>주의!</strong> 이건 패딩이나 마진으로 위치선정 x 포지션으로만 위치 선정해야함.</p>
+<h3>말 줄임처리</h3>
+<ul>
+	<li>width:70%-원하는 </li>
+	<li>white-space:nowrap;-한줄처리</li>
+	<li>overflow:hidden;-정해진 크기 안에서만 보이기</li>
+	<li>text-overflow:ellipsis;-외부처리를 말줄임..</li>
 </ul>
