@@ -853,3 +853,11 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 	<li>overflow:hidden;-정해진 크기 안에서만 보이기</li>
 	<li>text-overflow:ellipsis;-외부처리를 말줄임..</li>
 </ul>
+
+<hr>
+<h2>23.03.06 - css (position:sticy , z-index , flex</h2>
+<ul>
+	<li>적는 방법 : position:sticky; top:0;</li>
+	<li></li>
+	<li></li>
+</ul>
