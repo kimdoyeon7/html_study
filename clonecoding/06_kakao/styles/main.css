@@ -1,0 +1,74 @@
+header {}
+/* 로고 */
+header h1 {}
+header h1 a {}
+header h1 a img {}
+/* 메뉴부분 */
+header nav {}
+header nav a {}
+/* 링크 */
+header a {}
+header a span {}
+
+/* 메인 */
+main {}
+/* 메인 동영상부분 */
+main .visual {}
+main .visual video {}
+main .visual .ai {}
+main .visual .ai img {}
+main .visual .ai img {}
+/* 메인 첫번째 배너 부분 */
+main .board {}
+/* 1-1부분 */
+main .board .board_news {}
+main .board .board_news p {}
+main .board .board_news h2 {}
+main .board .board_news p strong {}
+/* 1-2번째 */
+main .board .board_company {}
+main .board .board_company p {}
+main .board .board_company p span {}
+main .board .board_company h2 {}
+/* 1-3번째 */
+main .board .board_partnership {}
+main .board .board_partnership p {}
+main .board .board_partnership h2 {}
+
+
+/* 메인 두번째 배너 부분 */
+main .gallery {}
+/* 2-1 */
+main .gallery .gall_service {}
+main .gallery .gall_service p {}
+main .gallery .gall_service .home {}
+main .gallery .gall_service .home img {}
+main .gallery .gall_service h2 {}
+
+/* 2-2 */
+main .gallery .gall_technology {}
+main .gallery .gall_technology p {}
+main .gallery .gall_technology .home {}
+main .gallery .gall_technology .home img {}
+main .gallery .gall_technology h2 {}
+/* 2-3 */
+main .gallery .gall_careers {}
+main .gallery .gall_careers p {}
+main .gallery .gall_careers .home {}
+main .gallery .gall_careers .home img {}
+main .gallery .gall_careers h2 {}
+
+
+/* 풋터영역 */
+footer {}
+footer .f_container {}
+/* 풋터 윗 영역 */
+footer .f_container .f_top {}
+footer .f_container .f_top .f_t_left {}
+footer .f_container .f_top .f_t_left a {}
+/*관련사이트  */
+footer .f_container .f_top .f_t_right {}
+/* 풋터-아래 */
+footer .f_container .f_btm {}
+footer .f_container .f_btm address {}
+footer .f_container .f_btm p {}
