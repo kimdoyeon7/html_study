@@ -790,6 +790,8 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li>ath-last-of-type(n) = a와 동일요소에서 마지막에서부터 n번째 선택</li>
 </ul>
 
+<hr>
+
 <h2>23.03.02 -  CSS 총 정리 + 배경이미지</h2>
 <p>text-align 값은 가장 근접한 선택자에 넣는 것이 안전</p>
 <p>가장 위에 주석으로 폰트크기나 색깔을 등록해 놓으면 편함</p>
@@ -801,6 +803,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
   <li><strong>배경 통합 속성</strong><br>color, image, repeat, attachment, position </li>
 </ul>
 
+<hr>
 
 <h2>23.03.03 - 위치속성, 속성선택자, 카멜표기법, 구분선 넣는 방법, 말줄임처리</h2>
 <h3>카멜표기법 = 언더바위치에 언더바 대신 두번째 단어의 앞부분을 대문자로 바꾸어 표기하는 방법<br>ex)loginFrm </h3>
@@ -913,10 +916,22 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 	<dd>space-around; = container 기준 균등한 여백 포함하여 정렬(양끝에 여백있음)</dd>
 </dl>
 <dl>
-	<dt>align-items : __ / 교차축의 아이템이 1줄일 때 정렬방법<br><strong>flex-wrap:nowrap(한줄처리) 일때만 사용가능</strong></dt>
+	<dt>align-items : __ / 교차축의 아이템이 1줄일 때 정렬방법<br><sub>flex-wrap:nowrap(한줄처리) 일때만 사용가능</sub></dt>
 	<dd>flex-start; = container의 시작점 </dd>
 	<dd>flex-end; = container의 끝점</dd>
 	<dd>center; = container의 가운데</dd>
-	<dd>space-between; = container 기준 양끝 여백 없이 일정한 간격으로 정렬</dd>
-	<dd>space-around; = container 기준 균등한 여백 포함하여 정렬(양끝에 여백있음)</dd>
+	<dd>space-between; 과 space-around; 가 없는 이유는? 한줄짜리이기 때문에 효과가 없음</dd>
+</dl>
+
+<h3>flex 중 item 에게 적용하는 종류</h3>
+<dl>
+	<dt>align-self : __ / align-items보다 우선순위가 높음</dt>
+	<dd>flex-start; = container의 시작점 </dd>
+	<dd>flex-end; = container의 끝점</dd>
+	<dd>center; = container의 가운데</dd>
+	<dd>아이템들이 개별적으로 움직이고 싶을 때 사용</dd>
+</dl>
+<dl>
+	<dt>order:(n) / align-items보다 우선순위가 높음</dt>
+	<dd>숫자 크기가 작을 수록 첫번째 정렬 </dd>
 </dl>
