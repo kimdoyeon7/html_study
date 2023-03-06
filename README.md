@@ -925,13 +925,18 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 
 <h3>flex 중 item 에게 적용하는 종류</h3>
 <dl>
-	<dt>align-self : __ / align-items보다 우선순위가 높음</dt>
+	<dt>align-self : __ / 교차축 정렬<br><sub>(align-items보다 우선순위가 높음)</sub></dt>
 	<dd>flex-start; = container의 시작점 </dd>
 	<dd>flex-end; = container의 끝점</dd>
 	<dd>center; = container의 가운데</dd>
 	<dd>아이템들이 개별적으로 움직이고 싶을 때 사용</dd>
 </dl>
 <dl>
-	<dt>order:(n) / align-items보다 우선순위가 높음</dt>
-	<dd>숫자 크기가 작을 수록 첫번째 정렬 </dd>
+	<dt>order:(n) / 아이템의 정렬 우선순위</dt>
+	<dd>숫자 크기가 작을 수록 첫번째 정렬 <br><sub>(z-index와 반대임/z-index는 숫자가 클수록 위로 올라옴)</sub></dd>
+</dl>
+<dl>
+	<dt>flex-grow :(n) /아이템 증가비율</dt>
+	<dd>증가비율이 클수록 크게 표시됨</dd>
+	<dd>주의!! 디바이스 너비를 item보다 작게 설정하면 관계없이 일정 비율로 조정됨.</dd>
 </dl>
