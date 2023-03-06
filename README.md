@@ -816,14 +816,14 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <h3>위치속성 position </h3>
 <p>포지션을 사용할 때는 태그의 순서와 상관 없이 위치를 움직이고 싶거나 누군가의 위치를 기준으로 움직여야할때임.</p>
 <ul>
-  <li>position : relative
+  <li>position : relative;
     <ul>
       <li>현재 내 위치에서 움직이겠다는 뜻</li>
       <li>숫자는 음수도 가능</li>
       <li>x축 y축 한번만 작성 (0일때는 단위작성 x)</li>
     </ul>
   </li>
-    <li>position : absolute
+    <li>position : absolute;
       <ul>가장 주의해서 사용하기
         <li>부모기분으로 움직임</li>
         <li><strong>부모 중 포지션을 갖고 있는 부모를 기준삼음</strong><br>
@@ -831,7 +831,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
         <li>그래서 absolute를 단독으로 사용할 수 없음</li>
       </ul>
     </li>
-  <li>position : fixed
+  <li>position : fixed;
     <ul>
       <li>웹브라우저 위치에 고정</li>
       <li>팝업 요소에 주로 사용</li>
@@ -856,8 +856,19 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 
 <hr>
 <h2>23.03.06 - css (position:sticy , z-index , flex</h2>
-<ul>
-	<li>적는 방법 : position:sticky; top:0;</li>
-	<li></li>
-	<li></li>
+
+<ul>position:sticy;
+	<li>적는 방법 : position:sticky; top:0;
+		<ul>
+			<li>top:0; 이 기준임. 작성 안하면 안 됨(뷰포트 기준)</li>
+			<li>탑 0에 닿으면 그때부터 고정</li>
+		</ul>
+	</li>
 </ul>
+<ul>position 중첩순서 속성 :  z-index
+	<li>position 자체에 중첩되는 속성을 가지고 있음</li>
+	<li>z-index;는 순서를 정하는 것이기 때문에 단위가 필요없음</li>
+	<li>z-index;는 숫자가 클수록 가장 위로 올라옴 (숫자 자체를 크게 쓰는 것이 유지보수에 적절함)</li>
+	<li><strong>position이 있어야 사용할 수 있음.</strong></li>
+</ul>
+
