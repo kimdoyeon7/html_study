@@ -855,9 +855,9 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 </ul>
 
 <hr>
-<h2>23.03.06 - css (position:sticy , z-index , flex</h2>
-
-<ul>position:sticy;
+<h2>23.03.06 - css (position:sticy , z-index , flex(레이아웃)</h2>
+<h3>position:sticy;</h3>
+<ul>
 	<li>적는 방법 : position:sticky; top:0;
 		<ul>
 			<li>top:0; 이 기준임. 작성 안하면 안 됨(뷰포트 기준)</li>
@@ -865,10 +865,39 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 		</ul>
 	</li>
 </ul>
-<ul>position 중첩순서 속성 :  z-index
+<h3>position 중첩순서 속성 :  z-index</h3>
+<ul>
 	<li>position 자체에 중첩되는 속성을 가지고 있음</li>
 	<li>z-index;는 순서를 정하는 것이기 때문에 단위가 필요없음</li>
 	<li>z-index;는 숫자가 클수록 가장 위로 올라옴 (숫자 자체를 크게 쓰는 것이 유지보수에 적절함)</li>
 	<li><strong>position이 있어야 사용할 수 있음.</strong></li>
 </ul>
-
+<h3>flex (-layout)</h3>
+<p>flexible box</p>
+<p>container = 부모 , item = 자식 (의미적으로만)</p>
+<p>flex는 부모에게 주는 속성이 대부분임</p>
+<p>내가 정렬 효과를 주고자 하는 아이템이 무엇인가 ? -> 그 아이템의 부모</p>
+<p><strong>메인축과 교차축을 알고 있어야함.(피그마같은것)</strong></p>
+<p><em>메인축=item이 정렬된 방향 , 교차축= 메인축과 항상 반대</em><p>
+<p><strong>flex 사용 시 display:flex;를 꼭 적어야함.</strong></p>
+<h3>flex 중 container 에게 적용하는 종류</h3>
+<dl>
+	<dt>flex-direction: __ / item 메인축의 방향설정</dt>
+	<dd>row; = 왼쪽->오른쪽 수평(기본값) </dd>
+	<dd>row-reverse; = 오른쪽->왼쪽</dd>
+	<dd>column; = 위-> 아래 <em>수직 축 변경</em></dd>
+	<dd>column-reverse; = 아래->위</dd>
+</dl>
+<dl>
+	<dt>flex-wrap: __ / items 줄 바꿈처리</dt>
+	<dd>wrap; = 자동줄바꿈(기본값) </dd>
+	<dd>wrap-reverse; = 행 기준 <em>역방향</em> 자동 줄바꿈</dd>
+	<dd>nowrap; = 줄 바꿈 없음. 가변의 너비에 따라 자동으로 % 크기 변경</dd>
+</dl>
+<p><strong>flex-flow: direction + wrap / 묶음처리가능</strong></p>
+<dl>
+	<dt>flex-wrap: __ / items 줄 바꿈처리</dt>
+	<dd>wrap; = 자동줄바꿈(기본값) </dd>
+	<dd>wrap-reverse; = 행 기준 <em>역방향</em> 자동 줄바꿈</dd>
+	<dd>nowrap; = 줄 바꿈 없음. 가변의 너비에 따라 자동으로 % 크기 변경</dd>
+</dl>
