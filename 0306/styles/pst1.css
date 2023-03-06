@@ -1,0 +1,25 @@
+#wrap {background-color: lightgray;}
+#wrap > * {width:1000px; margin:0 auto;} /* 공통적인 효과를 주기위해(수정 시 용이함) */
+#wrap header {background: yellow; height:100px;}
+#wrap nav {
+    background: coral; height:50px; 
+    text-align:center;
+    position:sticky; top:10px; /* 탑 0에 닿으면 그때부터 고정 */
+}
+#wrap nav a {line-height:50px; margin-right:20px;}/* 수직 정렬 하기 위해,간격사이 벌리기 위해서 */
+#wrap nav a:last-child {margin-right:0;} /* 이걸 안적으면 왼쪽으로 쏠린것처럼 보일 수 있음 */
+#wrap section {
+    background:aqua; height:300vh;
+    position:relative;
+}/* 스크롤로 2번 더 내려갈 수 있는 공간을 만들어준다는 의미  */
+#wrap section * {width:200px; height:200px;}
+#wrap section h1 {
+    background:lime;
+    position:absolute; left:0; top:0;
+    z-index:2;
+}
+#wrap section h2 {
+    background:pink;
+    position:absolute; left:100px; top:100px;
+    z-index:1;
+}
