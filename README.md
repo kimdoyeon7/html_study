@@ -895,9 +895,28 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 	<dd>nowrap; = 줄 바꿈 없음. 가변의 너비에 따라 자동으로 % 크기 변경</dd>
 </dl>
 <p><strong>flex-flow: direction + wrap / 묶음처리가능</strong></p>
+
 <dl>
-	<dt>flex-wrap: __ / items 줄 바꿈처리</dt>
-	<dd>wrap; = 자동줄바꿈(기본값) </dd>
-	<dd>wrap-reverse; = 행 기준 <em>역방향</em> 자동 줄바꿈</dd>
-	<dd>nowrap; = 줄 바꿈 없음. 가변의 너비에 따라 자동으로 % 크기 변경</dd>
+	<dt>justify-content: __ / 메인 축 정렬방법</dt>
+	<dd>flex-start; = container의 시작점 </dd>
+	<dd>flex-end; = container의 끝점</dd>
+	<dd>center; = container의 가운데</dd>
+	<dd>space-between; = container 기준 양끝 여백 없이 일정한 간격으로 정렬</dd>
+	<dd>space-around; = container 기준 균등한 여백 포함하여 정렬(양끝에 여백있음)</dd>
+</dl>
+<dl>
+	<dt>align-content : __ / 교차축의 아이템이 2줄 이상일 때 정렬방법<br><sub>효과 즉시 확인하려면 높이주어야함</sub></dt>
+	<dd>flex-start; = container의 시작점 </dd>
+	<dd>flex-end; = container의 끝점</dd>
+	<dd>center; = container의 가운데</dd>
+	<dd>space-between; = container 기준 양끝 여백 없이 일정한 간격으로 정렬</dd>
+	<dd>space-around; = container 기준 균등한 여백 포함하여 정렬(양끝에 여백있음)</dd>
+</dl>
+<dl>
+	<dt>align-items : __ / 교차축의 아이템이 1줄일 때 정렬방법<br><strong>flex-wrap:nowrap(한줄처리) 일때만 사용가능</strong></dt>
+	<dd>flex-start; = container의 시작점 </dd>
+	<dd>flex-end; = container의 끝점</dd>
+	<dd>center; = container의 가운데</dd>
+	<dd>space-between; = container 기준 양끝 여백 없이 일정한 간격으로 정렬</dd>
+	<dd>space-around; = container 기준 균등한 여백 포함하여 정렬(양끝에 여백있음)</dd>
 </dl>
