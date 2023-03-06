@@ -826,7 +826,8 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
     <li>position : absolute
       <ul>가장 주의해서 사용하기
         <li>부모기분으로 움직임</li>
-        <li><strong>부모 중 포지션을 갖고 있는 부모를 기준삼음</strong></li>
+        <li><strong>부모 중 포지션을 갖고 있는 부모를 기준삼음</strong><br>
+	아무도 안 가지고 있으면 제일 큰 부모인 body를 기준으로 함</li>
         <li>그래서 absolute를 단독으로 사용할 수 없음</li>
       </ul>
     </li>
