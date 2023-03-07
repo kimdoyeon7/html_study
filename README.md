@@ -952,6 +952,13 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>html에 cdnjs 링크 삽입 -> 가상선택자(after or before) 이용</p>
 <p>content:'\(유니코드)'; display:inline-block; font-weight:600;</p>
 <h3>이미지 크기 정하는 법</h3>
-<h3>배경색에 투명도 주는 방법</h3>
+<p>이미지 선택자에는 width:100%로 주고 부모의 변경에 따라 달라지도록함 즉, 이미지를 가변형으로</p>
+<p>그 부모에게 원하는 크기(px)를 주어야함.</p>
+<h3>마우스올렸을 때 색깔 변경</h3>
+<p>선택자에 :hover{color:#___;} </p>
+<h3>배경 투명하게 주기</h3>
+<p>background:rgba(0,0,0,0.7);=(알파값에 투명도 줌)</p>
+<h3>비디오 크기 (높이를 정할떈 영상 비율을 움직이는 것이 아니라 영상을 크롭하는것)</h3>
+<p>비디오 선택자의 부모에게 원하는 높이를 주고 overflow:hidden;을 적기</p>
 <h3>여러말 줄이기</h3>
 <h3>개발자도구</h3>
