@@ -858,6 +858,8 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 </ul>
 
 <hr>
+
+
 <h2>23.03.06 - css (position:sticy , z-index , flex(레이아웃)</h2>
 <h3>position:sticy;</h3>
 <ul>
@@ -942,8 +944,13 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 </dl>
 
 <hr>
+
+
+
 <h2>23.03.07 - css (카카오사이트만들기) - 복습위주 정리</h2>
-<h3>favicon 사용법</h3>
+<h3>아이콘 사용법</h3>
+<p>html에 cdnjs 링크 삽입 -> 가상선택자(after or before) 이용</p>
+<p>content:'\(유니코드)'; display:inline-block; font-weight:600;</p>
 <h3>이미지 크기 정하는 법</h3>
 <h3>배경색에 투명도 주는 방법</h3>
 <h3>여러말 줄이기</h3>
