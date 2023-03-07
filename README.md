@@ -960,5 +960,12 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>background:rgba(0,0,0,0.7);=(알파값에 투명도 줌)</p>
 <h3>비디오 크기 (높이를 정할떈 영상 비율을 움직이는 것이 아니라 영상을 크롭하는것)</h3>
 <p>비디오 선택자의 부모에게 원하는 높이를 주고 overflow:hidden;을 적기</p>
+<h3>position을 줄 때의 위치 기준점 변경방법</h3>
+<p>position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);</p>
+<p><sup>position:relative; 은 margin: auto 로 가운데 정렬가능</sup></p>
 <h3>여러말 줄이기</h3>
+<p>-webkit-line-clamp:n(n은 나타내고자 하는 줄 수); -webkit-box-orient:vertical(horizontal); display:-webkit-box;</p>
 <h3>개발자도구</h3>
+<p>개발자도구로 선택자가 틀렸는지 html이 틀렸는지 확인할 수 있음</p>
+<p>중간선만 그어져 있는 것은 우선순위가 밀려서 표시가 안나는 효과</p>
+<p>느낌표가 있으면 오타났다는 표시</p>
