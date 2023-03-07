@@ -36,6 +36,12 @@ main section {
     border: 1px solid gainsboro;
     border-top:none;
     padding:100px 25px;
+    /* 배경이미지속성 */
+    background-image:url(../images/bg.png);
+    background-size:50%;
+    background-repeat:no-repeat; /*기본repeat*/
+    background-position:right top; /* x y 순서 */
+    /* background-position:right -100px;  */
 }
 main section h2 {
     color:darkblue;

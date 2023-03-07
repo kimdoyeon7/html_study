@@ -1,74 +1,165 @@
-header {}
-/* 로고 */
-header h1 {}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* 25px=1.563rem 14px=0.875em 19px=1.2rem*/
+body {background:#f8f9fa;}
+/* 헤더영역 */
+header {
+    background:rgba(0,0,0,0.7);
+    position:fixed; left:0; top:0; z-index:9999;
+    width:100%; height:80px; display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    padding: 0 25px;
+    align-items:center;
+}
+header h1 {width:150px;}
 header h1 a {}
-header h1 a img {}
-/* 메뉴부분 */
+header h1 a img {width:100%}
 header nav {}
-header nav a {}
-/* 링크 */
-header a {}
-header a span {}
+header nav a {color:#eee; margin-left:25px;}
+header nav a:first-of-type {margin-left:0;}
+header nav a:hover {color:#fff;}
+header .lnb {
+    color:#fff;
+}
+header .lnb:hover {color:#ff0;}
+header .lnb::after {
+    content:'\f35a'; display:inline-block; font-weight:600;
+    color:#17a2b8;
+    margin-left:7px;
+}
 
-/* 메인 */
-main {}
-/* 메인 동영상부분 */
-main .visual {}
-main .visual video {}
-main .visual .ai {}
+/* main {background:#f8f9fa;} */
+main > * {margin-bottom:50px;}
+main .board, main .gallery {maigin-bottom:50px;}
+/* visual 비주얼 */
+main .visual {
+    height:700px; overflow:hidden;
+    position:relative;
+}
+main .visual video {width:100%;}
+main .visual .ai {
+    position:absolute; left: 50%; top:50%;
+    transform:translate(-50%,-50%);
+}
 main .visual .ai img {}
-main .visual .ai img {}
-/* 메인 첫번째 배너 부분 */
-main .board {}
-/* 1-1부분 */
-main .board .board_news {}
-main .board .board_news p {}
-main .board .board_news h2 {}
-main .board .board_news p strong {}
-/* 1-2번째 */
-main .board .board_company {}
-main .board .board_company p {}
-main .board .board_company p span {}
-main .board .board_company h2 {}
-/* 1-3번째 */
-main .board .board_partnership {}
-main .board .board_partnership p {}
-main .board .board_partnership h2 {}
+/* board+galldry */
+/* 공통효과는 공통인 클래스를 줘서 동일한 효과 제공 */
+/* main div a h1 {
+    font-size:1.8rem; font-weight:700;
+    letter-spacing:-0.02em;
+    line-height:1.5;
+}
+main div a p {font-size:1.2rem; letter-spacing:-0.02em;}
+main div a .category {font-weight:500; margin-bottom:10px;}
+main div a .contents {line-height:1.5;} */
 
-
-/* 메인 두번째 배너 부분 */
-main .gallery {}
-/* 2-1 */
-main .gallery .gall_service {}
-main .gallery .gall_service p {}
-main .gallery .gall_service .home {}
-main .gallery .gall_service .home img {}
-main .gallery .gall_service h2 {}
-
-/* 2-2 */
-main .gallery .gall_technology {}
-main .gallery .gall_technology p {}
-main .gallery .gall_technology .home {}
-main .gallery .gall_technology .home img {}
-main .gallery .gall_technology h2 {}
-/* 2-3 */
-main .gallery .gall_careers {}
-main .gallery .gall_careers p {}
-main .gallery .gall_careers .home {}
-main .gallery .gall_careers .home img {}
-main .gallery .gall_careers h2 {}
-
+/* board 보드영역 */
+main .board {
+    width:1140px; margin:0 auto;
+    /* background: aqua; */
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+main .board a {
+    background:#fff; 
+    width:32%; /* height:300px; */
+    /* border:2px solid black; */
+    padding: 10px 10px 20px 10px;
+    display:flex;
+    flex-flow:column wrap
+}
+main .board a:first-child h1 {margin-bottom: 40px;}
+main .board a:nth-child(2) p:nth-child(3) {margin-bottom: 20px;}
+main .board a h1 {
+    font-weight:900; font-size:1.563rem; 
+    line-height:1.5; letter-spacing:-0.02em;
+}
+main .board a p {font-size:1.2rem; letter-spacing:-0.02em;}
+main .board a .category {font-weight:500; margin-bottom:10px;}
+main .board a .contents {line-height:1.5;}
+main .board a:first-child .contents {
+    /* 여러줄 말줄임 처리 */
+    white-space:wrap;
+    overflow:hidden; text-overflow:ellipsis;
+    /* + */
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    display:-webkit-box;
+    color:#888;
+}
+/* gallery 영역 */
+main .gallery {
+    /* background: pink; */
+    width:1140px; margin:50px auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+main .gallery a {
+    display:inline-block;
+    /* border:2px solid black; */
+    background: #Fff;
+    width:32%;
+    padding:20px;
+}
+main .gallery p {font-size:1.2rem; }
+main .gallery a h1 {
+    font-size:1.563rem; font-weight:900;
+    line-height:1.5; letter-spacing:-0.02em;
+}
+main .gallery a .category {font-weight:500; margin-bottom:10px;}
+main .gallery a .img {padding-bottom:10px;}
+main .gallery a .img img {width:100%}
+main .gallery a .contents {
+    line-height:1.5; letter-spacing:-0.02em;
+    color:#888;
+}
+main .gallery a h1,
+main .gallery a .contents {margin:0 20px;}
 
 /* 풋터영역 */
-footer {}
-footer .f_container {}
-/* 풋터 윗 영역 */
-footer .f_container .f_top {}
+footer {
+    background-color: #fff; 
+    border-top:1px solid black;
+}
+footer .f_container {
+    width:1140px; margin:0 auto;
+    padding-bottom:30px;
+}
+footer .f_container .f_top {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    margin:10px 0;
+}
 footer .f_container .f_top .f_t_left {}
-footer .f_container .f_top .f_t_left a {}
-/*관련사이트  */
-footer .f_container .f_top .f_t_right {}
-/* 풋터-아래 */
-footer .f_container .f_btm {}
+footer .f_container .f_top .f_t_left a {
+    margin-right:20px;
+}
+footer .f_container .f_top .f_t_left a::after {
+    content:''; display:inline-block; width:1px; height:10px; background-color:#888;
+    position:relative; left:10px;
+}
+footer .f_container .f_top .f_t_left a:last-child {margin-right:0;}
+footer .f_container .f_top .f_t_left a:last-child::after {display:none;}
+footer .f_container .f_top .f_t_right {
+    background-color: gray;
+    padding:10px;
+    border-radius:5px;
+    color:#Fff;
+    
+}
+footer .f_container .f_btm {
+    color:#888;
+    margin-top:30px;
+}
 footer .f_container .f_btm address {}
 footer .f_container .f_btm p {}
+footer .f_container .f_btm address,
+footer .f_container .f_btm p {margin-bottom:10px;}
+footer .f_container .f_btm p:last-child {margin-bottom:0;}
+
+
