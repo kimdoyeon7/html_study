@@ -1,5 +1,6 @@
-/* 14px=0.875em (메뉴) 24px=1.500em(온도)
-    #1e6cb3
+/* 14px=0.875em (메뉴) 24px=1.500em(온도,타이틀) 
+    #1e6cb3 배경색 = #eff4f8=배경 #028ab6-행정 #599100-환경 #d76000=복지 #c35c3c=주택 #9b64d3=문화
+    #069363=경제, 메인3 추가배경색=#eff4f8 중간구분선색=#ccc
  */
 /* header -------------------------------------------------------------------- */
 header {/* background: aqua; */ width:1152px; margin:0 auto;}
@@ -114,15 +115,258 @@ main .bnr_wrap .right .bnr {}
 main .bnr_wrap .right .bnr img {}
 
 /* service_wrap-------------------------------------------------------------------------------- */
-.service_wrap {}
+main .service_wrap {
+    /* background: lightseagreen; */ width:1152px; margin:0 auto;
+}
 /* service 윗 부분----------------------------------------------------------------------------- */
-.service_wrap .title {}
-.service_wrap .title h1 {}
-.service_wrap .title .site {}
+main .service_wrap .title {
+    /* background: lightgreen; */ margin-top:20px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+    border-bottom:1px solid #888;
+    /* padding:20px 0 10px; margin:0 0 15px; */
+}
+main .service_wrap .title h1 {font-size:1.5rem; font-weight:600; letter-spacing:-0.07em;}
+main .service_wrap .title .site {
+    padding:5px 10px; border:1px solid #555; 
+    font-size:0.875rem; letter-spacing:-0.02em;
+}
 /* category-------------------------------------------------------------------------------------- */
-.service_wrap .ser_category {}
-.service_wrap .ser_category .icon span {}
-.service_wrap .ser_category .icon span {}
+main .service_wrap .ser_category {
+    /* background: yellow; */
+    display:flex;
+    flex-flow:row nowrap;
+    padding:10px 0 50px;
+}
+main .service_wrap .ser_category a {
+    width:9.09%; /* height=X */
+    display:flex;
+    flex-flow:column nowrap; /* span를 크기를 주고 정렬하기 위해서 */
+    align-items:center;
+}
+main .service_wrap .ser_category a:nth-child(odd) {/* background: lime; */}
+main .service_wrap .ser_category a span {}
+main .service_wrap .ser_category a span:first-child {
+    width:60px; height:60px;
+    /* background-color: #1e6cb3; */
+    background-image:url(../images/icon_service/css_sprites.png);
+}
+main .service_wrap .ser_category a span:last-child {font-size:80%;}
+main .service_wrap .ser_category a:nth-child(1) span:nth-child(1) {}
+main .service_wrap .ser_category a:nth-child(2) span:nth-child(1) {background-position-x:-60px;}
+main .service_wrap .ser_category a:nth-child(3) span:nth-child(1) {background-position-x:-120px;}
+main .service_wrap .ser_category a:nth-child(4) span:nth-child(1) {background-position-x:-180px;}
+main .service_wrap .ser_category a:nth-child(5) span:nth-child(1) {background-position-x:-240px;}
+main .service_wrap .ser_category a:nth-child(6) span:nth-child(1) {background-position-x:-300px;}
+main .service_wrap .ser_category a:nth-child(7) span:nth-child(1) {background-position-x:-360px;}
+main .service_wrap .ser_category a:nth-child(8) span:nth-child(1) {background-position-x:-420px;}
+main .service_wrap .ser_category a:nth-child(9) span:nth-child(1) {background-position-x:-480px;}
+main .service_wrap .ser_category a:nth-child(10) span:nth-child(1) {background-position-x:-540px;}
+main .service_wrap .ser_category a:nth-child(11) span:nth-child(1) {background-position-x:-600px;}
+
+/* 세번째 메인-------------------------------------------------------------------------- */
+
+main .bnr_wrap_bg {background:#eff4f8;}
+main .bnr_wrap_bg .bnr_wrap {
+    /* background-color: #1e6cb3; */
+    width:1152px; margin:30px auto 0; padding:30px 0; 
+}
+main .bnr_wrap_bg .bnr_wrap a {width:33.33%;}
+main .bnr_wrap_bg .bnr_wrap img {width:100%;}
+
+/* 네번째 메인 --------------------------------------------------------------------------------- */
+main .board_wrap {
+    /* background-color: aqua; */ width:1152px; margin:40px auto 0;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+}
+/* 공통효과 주는 그룹 ---------------------------------------------------------------------------- */
+main .board_wrap > * {width:32%;}
+main .board_wrap > div .list a .public {color:#028ab6;}
+main .board_wrap > div .list a .nature {color:#599100;}
+main .board_wrap > div .list a .welfare {color:#d76000}
+main .board_wrap > div .list a .house {color:#c35c3c;}
+main .board_wrap > div .list a .culture {color:#9b64d3;}
+main .board_wrap > div .list a .economy {color:#069363;}
+/* 이벤트 신청(제목+내용) --------------------------------------------------------------------- */
+main .board_wrap .event {/* background: lightgreen; */}
+/* 제목-------------------------------------------------------------------------------- */
+main .board_wrap .event .title {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #ccc;
+    padding:15px 0;
+}
+main .board_wrap .event .title h1 {
+    font-size:1.5rem; letter-spacing:-0.05em; font-weight:700;
+}
+main .board_wrap .event .title .more {}
+main .board_wrap .event .title .more::before {
+    content:'\f067'; display:inline-block; font-weight:600;
+    border:1px solid #ccc;
+    padding:5px 10px;
+}
+/* 내용----------------------------------------------------------------------------------------*/
+main .board_wrap .event .list {}
+main .board_wrap .event .list a {
+    display:flex; flex-flow:row nowrap; justify-content:flex-start;
+    padding:15px;
+}
+main .board_wrap .event .list a p {font-size:0.875rem; margin-right:5px;}
+main .board_wrap .event .list a .public {}
+main .board_wrap .event .list a .nature {}
+main .board_wrap .event .list a .welfare {}
+main .board_wrap .event .list a .house {}
+main .board_wrap .event .list a .culture {}
+main .board_wrap .event .list a h2 {
+    white-space: nowrap; text-overflow: ellipsis; overflow: hidden; 
+    font-size:0.875rem; width:90%;
+}
+/* 이달의 행사 및 축제 -----------------------------------------------------------------------*/
+main .board_wrap .festival {/* background: lightseagreen; */ width:32%;}
+/* 제목--------------------------------------------------------------------------------------------- */
+main .board_wrap .festival .title {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #ccc;
+    padding:15px 0;
+}
+main .board_wrap .festival .title h1 {font-size:1.5rem; letter-spacing:-0.05em; font-weight:700;}
+main .board_wrap .festival .title .more {}
+main .board_wrap .festival .title .more::before {
+    content:'\f067'; display:inline-block; font-weight:600;
+    border:1px solid #ccc;
+    padding:5px 10px;
+}
+/* 내용-------------------------------------------------------------------------------------------- */
+main .board_wrap .festival .list {}
+main .board_wrap .festival .list a {
+    display:flex; flex-flow:row nowrap; justify-content:flex-start;
+    padding:15px;
+}
+main .board_wrap .festival .list a p {font-size:0.875rem; margin-right:5px;}
+main .board_wrap .festival .list a h2 {
+    /* background: yellow; */
+    white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+    font-size:0.875rem; width:90% 
+}
+/* 서비스 ------------------------------------------------------------------------------------ */
+main .board_wrap .service {/* background: lightsalmon; */ width:32%;}
+main .board_wrap .service h1 {
+    font-size:1.5rem; letter-spacing:-0.05em; font-weight:700;
+    padding:15px 0;
+}
+main .board_wrap .service .contents {
+    display:flex; flex-flow:row wrap; background:#eff4f8;
+    padding:10px;
+}
+main .board_wrap .service .contents a {
+    display:inline-block;
+    width:50%;
+    /* background-color: #028ab6; */
+    padding:13px 0;
+}
 
 
+/* 다섯번째 메인 */
+main .area {/* background:#069363; */ width:1152px; margin:40px auto 0;}
+main .area h1 {
+    /* background-color: #028ab6; */
+    font-size:1.5rem; font-weight:700; letter-spacing: -0.05em;
+    border-bottom:1px solid #ccc;
+    padding:20px 0;
+    margin-top:40px;
+}
+main .area .area_category {
+    display:flex;
+    flex-flow:row nowrap; justify-content: space-between; align-content:flex-start;
+    /* background-color: brown; */
+    padding:15px 0;
+}
+main .area .area_category a {
+    width:144%; display:flex; flex-flow:column nowrap; align-items:center;
+}
+main .area .area_category a span {}
+main .area .area_category a span:first-child {
+    width:84px; height:91px;
+    background-image:url(../images/icon_set/css_sprites.png);
+    /* background-color: #599100; */
+}
+main .area .area_category a span:last-child {font-size:90%; margin-top:5px;}
+main .area .area_category a:first-child span:nth-child(1) {background-position-x:0;}
+main .area .area_category a:nth-child(2) span:nth-child(1) {background-position-x:-84px;}
+main .area .area_category a:nth-child(3) span:nth-child(1) {background-position-x:-168px;}
+main .area .area_category a:nth-child(4) span:nth-child(1) {background-position-x:-252px;}
+main .area .area_category a:nth-child(5) span:nth-child(1) {background-position-x:-336px;}
+main .area .area_category a:nth-child(6) span:nth-child(1) {background-position-x:-420px;}
+main .area .area_category a:nth-child(7) span:nth-child(1) {background-position-x:-504px;}
+main .area .area_category a:nth-child(8) span:nth-child(1) {background-position-x:-588px;}
 
+/* 여섯번째 마지막 메인 영역 */
+main .news {
+    /* background-color: #028ab6; */
+    width:1152px; margin:40px auto 0;
+}
+
+/* 제목영역 -------------------------------------------------------------------- */
+main .news .title {
+    display:flex; flex-flow:row nowrap;justify-content:space-between;
+    padding:20px 0;
+    border-bottom:1px solid #ccc;
+}
+main .news .title h1 {font-size:1.5rem; font-weight:700;}
+main .news .title .more {
+    border:1px solid #ccc;
+    letter-spacing: -0.05em;
+    padding:5px 10px;
+    font-size:0.875rem;
+}
+/* 뉴스 목록들 -------------------------------------------------------------------------- */
+main .news .news_list {
+    /* background-color: yellow; */
+    display:flex; flex-flow:row wrap; justify-content:space-between;
+    padding-top:20px;
+}
+main .news .news_list a {
+    width:23.5%; overflow:hidden;
+}
+main .news .news_list a p {position:relative;}
+main .news .news_list a p img {width:100%;}
+main .news .news_list a p:first-child {height:180px; overflow:hidden;}
+main .news .news_list a p:last-child {
+    line-height:1.5; margin:10px 0 30px; letter-spacing: -0.07em;
+    font-size:0.875rem;
+}
+main .news .news_list a:hover p img {
+    /* width 속성의 경우 -> 왼쪽상단 기준점으로 인해 우측하단으로만 이미지가 확대된다. */
+    /* width:110%;
+    position:absolute; left:50%; top:50%;
+    transform:translate(-50%,-50%); */
+    /* transform속성은 기준점을 요소의 중심으로 인식한다. */
+    transform:scale(1.1);
+    /* css 수치값이 변화가 일어날때 애니메이션 적용 */
+    /* ex) 100->110 값 변화 0 */
+    /* ex) row->column 값 변화 x */
+    transition:all 0.3s;
+    /* 모든 css 변화값을 적용시키겠다.
+    애니메이션을 0.3초 동안 하겠다.  라는 뜻 */
+
+}
+
+/* footer ---------------------------------------------------------------------------- */
+.footer {}
+/* footer top -------------------------------------------------------------------- */
+.footer .ft_top {}
+.footer .ft_top .ft_top_left {}
+.footer .ft_top .ft_top_left a {}
+.footer .ft_top .ft_top_right {}
+.footer .ft_top .ft_top_right a {}
+.footer .ft_top .ft_top_right a span {}
+/* footer bottom ------------------------------------------------------------------ */
+.footer .ft_btm {}
+.footer .ft_btm .ft_btm_left {}
+.footer .ft_btm .ft_btm_left img {}
