@@ -335,7 +335,7 @@ main .news .news_list a {
     width:23.5%; overflow:hidden;
 }
 main .news .news_list a p {position:relative;}
-main .news .news_list a p img {width:100%;}
+main .news .news_list a p img {width:100%; transition:all 1s;}
 main .news .news_list a p:first-child {height:180px; overflow:hidden;}
 main .news .news_list a p:last-child {
     line-height:1.5; margin:10px 0 30px; letter-spacing: -0.07em;
@@ -358,15 +358,50 @@ main .news .news_list a:hover p img {
 }
 
 /* footer ---------------------------------------------------------------------------- */
-.footer {}
+footer {width:1152px; margin:0 auto;}
 /* footer top -------------------------------------------------------------------- */
-.footer .ft_top {}
-.footer .ft_top .ft_top_left {}
-.footer .ft_top .ft_top_left a {}
-.footer .ft_top .ft_top_right {}
-.footer .ft_top .ft_top_right a {}
-.footer .ft_top .ft_top_right a span {}
+footer .ft_top {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    background-color: #069363;
+    padding:25px 0;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    
+}
+footer .ft_top .ft_top_left {
+    background-color: yellow;
+}
+footer .ft_top .ft_top_left a {
+    margin-right:15px;
+    font-size: 0.875rem;
+    color:#ccc;
+}
+footer .ft_top .ft_top_left a::after {
+    width:1px; height:15px; 
+    content:''; display:inline-block; background-color:#ccc; 
+    position:relative; left:10px; top:2px;
+}
+footer .ft_top .ft_top_left a:nth-child(2) {
+    color:black;
+}
+footer .ft_top .ft_top_left a:last-child {margin:0px;}
+footer .ft_top .ft_top_left a:last-child::after {display:none;}
+/* sns 아이콘 영역 ------------------------------------------------------------------------- */
+footer .ft_top .ft_top_right {background-color: #028ab6;}
+footer .ft_top .ft_top_right a {
+    sdisplay:flex; flex-flow:row wrap; align-items:center;
+}
+footer .ft_top .ft_top_right a .wifi{}
+footer .ft_top .ft_top_right a .facebook{}
+footer .ft_top .ft_top_right a .twitter{}
+footer .ft_top .ft_top_right a .insta{}
+footer .ft_top .ft_top_right a .kakaost{}
+footer .ft_top .ft_top_right a .youtube{}
+footer .ft_top .ft_top_right a > span {
+    width:25px; height:25px;
+    background-image:url(../images/icon_sns2/css_sprites.png)
+}
 /* footer bottom ------------------------------------------------------------------ */
-.footer .ft_btm {}
-.footer .ft_btm .ft_btm_left {}
-.footer .ft_btm .ft_btm_left img {}
+footer .ft_btm {}
+footer .ft_btm .ft_btm_left {}
+footer .ft_btm .ft_btm_left img {}
