@@ -1,0 +1,16 @@
+/* 전체너비 1220px */
+.main_1 {
+    width:1220px;
+    background: yellow;
+}
+.main_1 .left {}
+.main_1 .left .logo {}
+.main_1 .left .logo img {}
+.main_1 .middle {}
+.main_1 .middle h1 {}
+.main_1 .middle h1 span {}
+.main_1 .middle h1 span a {}
+.main_1 .middle h1 span a img {}
+.main_1 .right {}
+.main_1 .right .question {}
+.main_1 .right .question img {}
