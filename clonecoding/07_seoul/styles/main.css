@@ -2,7 +2,12 @@
     #1e6cb3 배경색 = #eff4f8=배경 #028ab6-행정 #599100-환경 #d76000=복지 #c35c3c=주택 #9b64d3=문화
     #069363=경제, 메인3 추가배경색=#eff4f8 중간구분선색=#ccc
  */
-/* header -------------------------------------------------------------------- */
+#top {
+    position:fixed; right:50px; bottom:50px;
+    z-index:9999;
+}
+
+ /* header -------------------------------------------------------------------- */
 header {/* background: aqua; */ width:1152px; margin:0 auto;}
 /* header_top --------------------------------------------------------------------- */
 header .h_top {
@@ -21,10 +26,12 @@ header .h_top .h_t_left h1 a img {}
 /* 헤더 왼쪽 네비 */
 header .h_top .h_t_left nav {/* background: lightseagreen; */}
 header .h_top .h_t_left nav a {margin-right:7px;}
+header .h_top .h_t_left nav a:hover {color:#1e6cb3;}
 header .h_top .h_t_left nav a:last-child {margin-right:0;}
 /* 헤더 오른쪽 */
 header .h_top .h_t_right {/* background:yellow; */}
 header .h_top .h_t_right a {margin-left:7px;}
+header .h_top .h_t_right a:hover {color:#1e6cb3;}
 header .h_top .h_t_right a:first-child {margin-left:0px;}
 /* 그룹선택자 */
 header .h_top .h_t_left nav,header .h_top .h_t_right {font-size:0.875rem; font-weight:700;}
@@ -69,7 +76,7 @@ header .h_bottom .h_b_right .r_btm {}
 header .h_bottom .h_b_right .r_btm p {font-size:0.875rem; letter-spacing:-0.02em; line-height:1.3;}
 header .h_bottom .h_b_right .r_btm p:first-child {font-size:1.500rem; font-weight:600;}
 
-main {background: pink;}
+main {/* background: pink; */}
 /* main _ first----------------------------------------------- */
 main .bnr_wrap {
     width:1152px; margin:0 auto;
@@ -78,7 +85,7 @@ main .bnr_wrap {
     justify-content:space-between;
 }
 /* main_first_left */
-main .bnr_wrap .left {background:lightcoral; position:relative;}
+main .bnr_wrap .left {/* background:lightcoral; */ position:relative;}
 main .bnr_wrap .left .bnr {}
 main .bnr_wrap .left .bnr img {}
 main .bnr_wrap .left .close {
@@ -87,7 +94,8 @@ main .bnr_wrap .left .close {
 }
 /* main_first_right----------------------------------------------------------------------------- */
 main .bnr_wrap .right {
-    background: plum; width:360px;
+    /* background: plum;  */
+    width:360px;
     display:flex;
     flex-flow:column nowrap;
     justify-content:space-between;
@@ -149,6 +157,7 @@ main .service_wrap .ser_category a {
 }
 main .service_wrap .ser_category a:nth-child(odd) {/* background: lime; */}
 main .service_wrap .ser_category a span {}
+main .service_wrap .ser_category a span:hover {color:#1e6cb3;}
 main .service_wrap .ser_category a span:first-child {
     width:60px; height:60px;
     /* background-color: #1e6cb3; */
@@ -179,7 +188,8 @@ main .bnr_wrap_bg .bnr_wrap img {width:100%;}
 
 /* 네번째 메인 --------------------------------------------------------------------------------- */
 main .board_wrap {
-    /* background-color: aqua; */ width:1152px; margin:40px auto 0;
+    /* background-color: aqua;  */
+    width:1152px; margin:40px auto 0;
     display:flex;
     flex-flow:row nowrap;
     justify-content:space-between;
@@ -214,8 +224,9 @@ main .board_wrap .event .title .more::before {
 main .board_wrap .event .list {}
 main .board_wrap .event .list a {
     display:flex; flex-flow:row nowrap; justify-content:flex-start;
-    padding:15px;
+    padding:10px;
 }
+main .board_wrap .event .list a:hover {border-bottom:1px solid #000;}
 main .board_wrap .event .list a p {font-size:0.875rem; margin-right:5px;}
 main .board_wrap .event .list a .public {}
 main .board_wrap .event .list a .nature {}
@@ -243,11 +254,13 @@ main .board_wrap .festival .title .more::before {
     padding:5px 10px;
 }
 /* 내용-------------------------------------------------------------------------------------------- */
-main .board_wrap .festival .list {}
+main .board_wrap .festival .list:hover {}
 main .board_wrap .festival .list a {
     display:flex; flex-flow:row nowrap; justify-content:flex-start;
-    padding:15px;
+    padding:10px;
+    /* background-color: #028ab6; */
 }
+main .board_wrap .festival .list a:hover {border-bottom:1px solid #000;}
 main .board_wrap .festival .list a p {font-size:0.875rem; margin-right:5px;}
 main .board_wrap .festival .list a h2 {
     /* background: yellow; */
@@ -268,9 +281,8 @@ main .board_wrap .service .contents a {
     display:inline-block;
     width:50%;
     /* background-color: #028ab6; */
-    padding:13px 0;
+    padding:8px 0;
 }
-
 
 /* 다섯번째 메인 */
 main .area {/* background:#069363; */ width:1152px; margin:40px auto 0;}
@@ -291,6 +303,7 @@ main .area .area_category a {
     width:144%; display:flex; flex-flow:column nowrap; align-items:center;
 }
 main .area .area_category a span {}
+main .area .area_category a span:hover {color:#1e6cb3;}
 main .area .area_category a span:first-child {
     width:84px; height:91px;
     background-image:url(../images/icon_set/css_sprites.png);
@@ -362,18 +375,18 @@ footer {width:1152px; margin:0 auto;}
 /* footer top -------------------------------------------------------------------- */
 footer .ft_top {
     display:flex; flex-flow:row nowrap; justify-content:space-between;
-    background-color: #069363;
+    /* background-color: #069363; */
     padding:25px 0;
     border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
     
 }
 footer .ft_top .ft_top_left {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 footer .ft_top .ft_top_left a {
     margin-right:15px;
-    font-size: 0.875rem;
+    font-size: 0.875rem; letter-spacing:-0.025em;
     color:#ccc;
 }
 footer .ft_top .ft_top_left a::after {
@@ -387,21 +400,48 @@ footer .ft_top .ft_top_left a:nth-child(2) {
 footer .ft_top .ft_top_left a:last-child {margin:0px;}
 footer .ft_top .ft_top_left a:last-child::after {display:none;}
 /* sns 아이콘 영역 ------------------------------------------------------------------------- */
-footer .ft_top .ft_top_right {background-color: #028ab6;}
+
+footer .ft_top .ft_top_right {
+    /* background-color: #d76000; */
+    display:flex; flex-flow:row wrap; align-items:center;
+}
 footer .ft_top .ft_top_right a {
-    sdisplay:flex; flex-flow:row wrap; align-items:center;
-}
-footer .ft_top .ft_top_right a .wifi{}
-footer .ft_top .ft_top_right a .facebook{}
-footer .ft_top .ft_top_right a .twitter{}
-footer .ft_top .ft_top_right a .insta{}
-footer .ft_top .ft_top_right a .kakaost{}
-footer .ft_top .ft_top_right a .youtube{}
-footer .ft_top .ft_top_right a > span {
     width:25px; height:25px;
-    background-image:url(../images/icon_sns2/css_sprites.png)
+    background-image:url(../images/icon_sns2/css_sprites_01.png);
+    /* background-color: #599100; */
+    /* background-position-y:0;
+    text-indent-9999px; 만약 글자를 넣었다면 써야할 속성값임*/
+    margin-right:10px;
 }
+footer .ft_top .ft_top_right a:hover {
+    width:25px; height:25px;
+    background-image:url(../images/icon_sns2/css_sprites_02.png);
+    /* background-color: #599100; */
+    margin-right:10px;
+}
+footer .ft_top .ft_top_right .wifi{background-position-x:0;}
+footer .ft_top .ft_top_right .facebook{background-position-x:-25px;}
+footer .ft_top .ft_top_right .twitter{background-position-x:-50px;}
+footer .ft_top .ft_top_right .insta{background-position-x:-75px;}
+footer .ft_top .ft_top_right .kakaost{background-position-x:-100px;}
+footer .ft_top .ft_top_right .youtube{background-position-x:-125px;}
 /* footer bottom ------------------------------------------------------------------ */
-footer .ft_btm {}
-footer .ft_btm .ft_btm_left {}
-footer .ft_btm .ft_btm_left img {}
+footer .ft_btm {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+    margin:20px 0;
+}
+footer .ft_btm .ft_btm_left {
+    display:flex; flex-flow:row wrap; justify-content:space-between; align-items:center;
+    /* background-color: #028ab6; */
+}
+footer .ft_btm .ft_btm_left .call120 {}
+footer .ft_btm .ft_btm_left .call120 img {display:block; margin-right:20px;}
+footer .ft_btm .ft_btm_left .inform {}
+footer .ft_btm .ft_btm_left .inform > * {
+    font-size:0.875rem; letter-spacing:-0.02em;
+    line-height:1.5;
+}
+footer .ft_btm .ft_btm_left .inform address {}
+footer .ft_btm .ft_btm_left .inform p {}
+footer .ft_btm .ft_btm_right {/* background-color: #9b64d3; */}
+footer .ft_btm .ft_btm_right img {}
