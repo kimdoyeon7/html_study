@@ -1012,11 +1012,6 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 	<li>transition:all 0.3s = 애니메이션을 0.3초 동안 하겠다는 뜻</li>
 	<li>transform:scale(1.1) css 수치값이 변화가 일어날 때 애니메이션 적용</li>
 	<li>hover의 직속 부모한테는 overflow:hidden;을 주어야함.</li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
 </ol>
 
 
