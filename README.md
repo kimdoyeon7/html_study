@@ -1035,8 +1035,16 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>정의? 마케팅을 위해 만든 페이지임</p>
 <p>ex)북극곰 후원사이트</p>
 
-<h3></h3>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<h3>css 그라디언트</h3>
+<p>백그라운드 기본 css로 적용하기</p>
+<p>종류: radial-gradient(원), linear-gradient(선)</p>
+<ul>적용 효과들
+	<li>색깔은 시작색, 끝색 순으로 적기 , #또는 raba 색으로 적기</li>
+	<li>각도 설정 = ex)180deg </li>
+	<li>방향 설정 = ex>to bottom, to left top</li>
+	<li>원 비율 설정(radial)전용 = circle 삽입, 이거 안 적으면 블록 크기 변경 시 타원형으로 됨</li>
+	<li>색상범위 설정 = ex>red 80% blue 90% <strong>무조건 숫자는 작은 숫자에서 큰 숫자로</strong></li>
+	<li>색상 투명하게 방법 1. = rgba(0,0,0,0.3)으로 주기(어두운 색상)</li>
+	<li>색상 투명하게 방법 2. = transparent으로 주기(완전 투명)</li>
+</ul>
+
