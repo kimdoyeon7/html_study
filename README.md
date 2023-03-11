@@ -973,7 +973,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 
 <hr>
 
-<h2>23.03.08 - 스프라이트 이미지, 태그 에밋방식으로 작성, outline:none;</h2>
+<h2>23.03.08 - 스프라이트 이미지, 태그 에밋방식으로 작성,form양식에서 검색창 효과</h2>
 <h3>sprite images</h3>
 <p>정의? 여러 작은 이미지를 관리하기 어려울때 스프라이트 이미지로 묶는것임.</p>
 <p>스프라이트 이미지는 이미지 태그가 아닌 css백그라운드 이미지 선언으로 불러와야함.</p>
@@ -984,12 +984,20 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>no-repeat; = 이미지가 반복되지 않도록</p>
 <p>text-indent:-9999px; = -9999px 만큼 옮겨서 숨겨지도록 </p>
 
-<h3></h3>
-<p></p>
+<h3>태그 에밋방식으로 작성</h3>
+<p>부모자식관계를 정확하게 알고 사용하기</p>
 
+<h3>form양식에서 검색창 효과 (css)</h3>
+<ul>outline:none;
+	<li>검색창 클릭 시 테두리로 활성화 알려주는 기능</li>
+</ul>
+<ul>border:0;
+	<li>입력창 전체 선을 없애주는 것</li>
+</ul>
+<ul>width:90%
+	<li>검색창 자체 크기 설정</li>
+</ul>
 
-<h3></h3>
-<p></p>
 <hr>
 
 <h2>23.03.09 - 웹 페이지 제작해보기</h2>
