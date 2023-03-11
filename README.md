@@ -1001,7 +1001,30 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <hr>
 
 <h2>23.03.09 - 웹 페이지 제작해보기</h2>
+<h3>알아야할 사실</h3>
+<p>부모에 flex가 있으면 자식이 인라인이여도 크기를 가질 수 있는 인라인이 됨</p>
+<h3>사진 hover(이미지확대) 하기 위한 방법</h3>
+<ol>
+	<li>css 이미지에 이미지의 크기는 width:100%</li>
+	<li>hover css 에 이미지의 크기를 110%으로 주기 (100이상)</li>
+	<li>width 속성의 경우 왼쪽 상단 기준으로 인해 우측 하단으로만 이미지가 확대됨</li>
+	<li>그래서 position:absolute; , (tansform:translat(-50%,-50%)=기준점을 요소의 중심으로 인식) 주기</li>
+	<li>transition:all 0.3s = 애니메이션을 0.3초 동안 하겠다는 뜻</li>
+	<li>transform:scale(1.1) css 수치값이 변화가 일어날 때 애니메이션 적용</li>
+	<li>hover의 직속 부모한테는 overflow:hidden;을 주어야함.</li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
+
+
 
 <hr>
 
 <h2>23.03.10 - 테스트&서울시청 완성</h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
