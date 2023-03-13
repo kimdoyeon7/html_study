@@ -1051,6 +1051,23 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>css에서 @media 규칙으로 활용함</p>
 <p> 미디어쿼리는 단말기의 유형(출력물 or 화면)
 	어떤 특성이나 수치(해상도, 뷰포트 기준)에 따라 웹 사이트나 앱의 스타일을 수정할 때 유용합니다.</p>
-
+<ul> 미디어쿼리 유형
+	<li>all = 모든 장치 기준 유형</li>
+	<li>print = 인쇄 결과물 및 출력 미리보기 (프린트 시 백그라운드 화이트로 설정하기 유용)</li>
+	<li>screen = 화면 대상 기준 유형 (가장 많이사용)</li>
+	<li>speech = 음성인식장치 기준 유형</li>
+</ul>
+<p><strong>min-width(이상), max-width(이하)</strong></p>
+<p>min-width, max-width를 통해 최소, 최대 제한 너비 설정하기</p>
+<sup>min은 작은 수에서 큰 수로 적어야함.</sup>
+<p>사용예시 <br> @media screen and (max-width:1024px){}</p>
+<p>max와 min을 혼합해서 사용하지 않음</p>
+<p>max(min)-width:__px 뒤에는 ; 붙이면 오류남.</p>
+<p><strong>반응형 웹을 만들기 위해서는 블럭의 넓이를 가변형으로 변경하고 
+		최대 크기를 픽셀로 설정하는 것임</strong>
+</p>
+<p>width:__%, max-width:최대크기px , min-width:최소크기px <br>
+	<em>이 세개는 세트처럼 사용해야함. 가장큰 부모에게</em>
+</p>
 <h3>git 사용 방법</h3>
 <p></p>
