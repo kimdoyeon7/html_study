@@ -1,27 +1,117 @@
-/* 전체너비 1220px */
-.main_1 {
-    background:url(../images/bg1.png)
+/* 1.5rem; 3.5rem;  */
+#visual_bg {
+    background:url(../images/bg1.png) center;
+    background-size:cover;
+    background-attachment:fixed;
 }
-.main_1 > * {width:1220px; position:relative;}
-/* 로고 */
-.main_1 h1 {
-    width:50px; height:50px;
-    position:absolute;
-    left:0px; right:0;
+#visual_bg #visual_bg_gra {
+    background:linear-gradient(360deg,rgba(0,0,0,0.7), transparent);
 }
-.main_1 h1 .logo {}
-.main_1 h1 .logo img {width:100%;}
-/* 가운데 */
-.main_1 h2 {
-    /* background-color: pink; */
-    background:linear-gradient(#000;)
-    text-align:center; font-size:4rem; color:#fff; 
-    line-height:1.3;
-    letter-spacing:-0.3rem;
-    margin:0 350px;
+#visual_bg #visual_bg_gra .container {
+    /* background-color: aqua; */
+    width:1220px; margin:0 auto; padding:200px 0 400px; text-align:center;
+    position:relative; 
 }
-.main_1 h2 span{font-size:4rem; font-weight:800;}
-/* 후원버튼 */
-.main_1 .btn {}
-/* Q & A 버튼 */
-.main_1 .qa {}
+#visual_bg #visual_bg_gra .container > *{
+    /* background-color: aqua; */
+}
+#visual_bg #visual_bg_gra .container .logo {
+    width:50px; 
+    position:absolute; left:0; top:0;
+}
+#visual_bg #visual_bg_gra .container .logo a {}
+#visual_bg #visual_bg_gra .container .logo a img {width:100%}
+#visual_bg #visual_bg_gra .container .title {
+    /* background-color: bisque; */
+    margin-bottom:15px;
+    color:#fff;
+    /* position:relative; top:0;  */
+}
+#visual_bg #visual_bg_gra .container .title em {font-weight:700;}
+#visual_bg #visual_bg_gra .container .title,
+#visual_bg #visual_bg_gra .container .title em {
+    font-size:3.5rem; letter-spacing:-0.04em; line-height:1.5em;
+}
+#visual_bg #visual_bg_gra .container .title,
+#visual_bg #visual_bg_gra .container .sponsor {}
+#visual_bg #visual_bg_gra .container .sponsor {}
+#visual_bg #visual_bg_gra .container .sponsor img {}
+#visual_bg #visual_bg_gra .container .question {
+    position:absolute; right:0; bottom:350px;
+}
+#visual_bg #visual_bg_gra .container .question img {}
+
+/* 2 두번째 퀴즈---------------------------------------------------------------------*/
+#quiz_bg {background:url(../images/quiz_bg.png)}
+#quiz_bg .container {
+    width:1220px; margin:0 auto;
+    padding:100px 0;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    color:#fff;
+}
+/* 왼쪽----------------------------------------------------------------------- */
+#quiz_bg .container .left {
+    /* background: pink; */
+    width:50%
+}
+#quiz_bg .container .left #quizFrm {}
+#quiz_bg .container .left #quizFrm fieldset {letter-spacing:-0.05em;}
+#quiz_bg .container .left #quizFrm fieldset h1 {
+    text-align:center; font-size:3.5rem;
+    letter-spacing:-0.03em; font-weight:800;
+    margin-bottom:10px;
+}
+#quiz_bg .container .left #quizFrm fieldset h2 {
+    font-size:1.5rem;
+    letter-spacing:-0.03em; font-weight:800;
+    margin-bottom:20px;
+}
+#quiz_bg .container .left #quizFrm fieldset ul {}
+#quiz_bg .container .left #quizFrm fieldset ul li {margin:10px 0;}
+#quiz_bg .container .left #quizFrm fieldset ul li input[name=quiz] {}
+#quiz_bg .container .left #quizFrm fieldset ul li label {font-size:1rem; font-size:1.25rem;}
+/* 정답확인하기 --------------------------------------------------------------- */
+#quiz_bg .container .left #quizFrm fieldset p {
+    background-color: #222; text-align:center;
+    padding:15px 0;
+    border-radius:50px;
+    margin-top:20px;
+}
+#quiz_bg .container .left #quizFrm fieldset p .quiz_answer {color:#fff;}
+/* 오른쪽 ------------------------------------------------------------------------ */
+#quiz_bg .container .right {/* background: yellow; */}
+#quiz_bg .container .right p {
+    text-align:center; color:#fff; font-size:0.875rem;
+}
+#quiz_bg .container .right p img {width:100%; margin-bottom:30px;}
+
+/* --------------------campaign 통합 */
+.campaign_bg .container {width:1220px; margin:0 auto; padding:100px 0;}
+.campaign_bg .container h1,
+.campaign_bg .container h1 > * {
+    font-size:3rem; letter-spacing:-0.05em;
+    font-weight:700; line-height:1.5em;
+}
+/* ----------------------------------------------------- campaign1~7 배경모음--- */
+.campaign1 {background:url(../images/video_bg.png);}
+.campaign2 {background:url(../images/50_bg.png);}
+.campaign3 {background:#eee;}
+.campaign4 {background:url(../images/50_bg.png);}
+.campaign5 {background:url(../images/wwf.jpg);}
+.campaign6 {background:url(../images/50_bg.png);}
+.campaign7 {background:url(../images/50.png); }
+.campaign_bg {background-size:cover; background-position:center;}
+/* --------campaign1---- */
+.campaign1 {}
+.campaign1 .container {
+    /* display:flex; flex-flow:column wrap; align-items:center; -반응형웹으로 만들기에 편해서 사용해야하는 것임 */
+    display:flex; flex-flow:column wrap; 
+    align-items:center;
+}
+.campaign1 .container h1 {text-align:center;}
+.campaign1 .container iframe {margin:25px 0;}
+/* 후원하기버튼 -------------------------------------  */
+.campaign1 .container .sponsor {}
+.campaign1 .container .sponsor img {}
