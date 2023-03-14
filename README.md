@@ -1070,4 +1070,30 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 	<em>이 세개는 세트처럼 사용해야함. 가장큰 부모에게</em>
 </p>
 <h3>git 사용 방법</h3>
-<p></p>
+<p>git init (저장소 만들기)</p>
+<p>git config --local(global) user.name ""</p>
+<p>git config --local(global) user.email ""</p>
+<p>git config --list(네임와 이메일 제대로 등록되었는지확인)</p>
+<p>html 수정 후 -> git status</p>
+<p>git add .</p>
+<p>git status (제대로 스테이지에 올랐는지 확인/생략가능)</p>
+<p>git commit -m "" (괄호안에는 구분가능하게 제대로적기)</p>
+<p>git log(제대로 커밋되었는지 확인)</p>
+<p>git branch -M main (마스터에서 메인으로 변경)</p>
+<p>git push -u origin main (저장소에 푸시)</p>
+
+
+
+<hr>
+
+<h2>23.03.14 - 깃</h2>
+<h3>GIT 협업</h3>
+<p>깃 허브에서 저장소 만들어 상대방 초대하기</p>
+<p>주소 복사 후 vs code 에서 원격으로 링크 연결, origin 등록</p>
+<p>전날방법과 동일하게 push하기</p>
+
+<h3>협업 시 다른 컴퓨터에 pull할때</h3>
+<p>내가 파일을 pull하고 싶은 폴더를 선택해서 새폴더 만들어주기(그 폴더 안에 자료를 넣을것임)</p>
+<p>vs로 폴더 열고 저장소 만드는 과정 ~ git config --list까지 하기</p>
+<p>원격으로 깃허브 주소 복사해서 오리진 등록</p>
+<p>테스트해서 연결되었는지 확인하기</p>
