@@ -1,0 +1,39 @@
+.container {
+    background: rgb(164, 250, 250);
+    display:grid;
+    /* grid-template-rows:100px 100px 100px 100px; */
+    /* grid-template-rows:repeat(4,100px); */
+    /* grid-template-rows:50px repeat(3,100px); */
+    /* grid-template-rows:repeat(2,100px) repeat(2,50px); */
+    /* grid-template-rows:repeat(1,50px) repeat(2,100px) repeat(1,50px); */
+    /* grid-template-rows:repeat(4,minmax(150px,300px)); */
+    /* grid-template-rows:[트랙명] 트랙값 [트랙명] 트랙값; */
+    /* grid-template-rows:[header] 50px [nav] 100px [main] 150px [footer] 200px; */
+    /* grid-template-columns:100px 50px 100px ; */
+    /* grid-template-rows:100px 200px; */
+    /* grid-template-columns:50px 100px */
+    /* grid-template-rows:50px 100px; */
+    /* grid-template-columns:100px 150px 200px; */
+    /* grid-template-columns:150px 200px; */
+    /* -------------------------- grid-2부 연습 */
+    /* grid-template-areas:
+        'item1 item2 item2'
+        'item3 item3 item4';
+    grid-template-rows:repeat(2,50px);
+    grid-template-columns:repeat(3,1fr); */
+    /* grid-template-areas:
+        'item1 item2'
+        'item3 item2'
+        'item3 item4';
+    grid-template-rows:repeat(2,50px) 100px; */
+    grid-template-areas:
+        'item1 item2'
+        'item1 item3'
+        '. item4';
+    grid-template-rows:repeat(2,50px) 100px;
+}
+.container .item {}
+.container .item:nth-child(1) {background: pink; grid-area:item1;}
+.container .item:nth-child(2) {background: rgb(83, 255, 103); grid-area:item2;}
+.container .item:nth-child(3) {background: rgb(255, 0, 136); grid-area:item3;}
+.container .item:nth-child(4) {background: rgb(213, 124, 251); grid-area:item4;}
