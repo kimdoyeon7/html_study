@@ -1,0 +1,9 @@
+$fontColor:#f00;
+$bgColor:#ffc;
+
+#box {
+    background-color:$bgColor;
+    p {
+        color:$fontColor;
+    }
+}
