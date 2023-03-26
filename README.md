@@ -1266,6 +1266,7 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <h3>폰트 여러개 적용하는 방법</h3>
 <p>1. import는 다 붙여넣기</p> 
 <p>2. css파일에 font-family:'폰트이름' 주기</p>
+<p>3. scss에선 $font-jua:font-family:..?</p>
 
 <h3>형변환 개념(암시적,명시적)</h3>
 <p>숫자->문자 또는 문자->숫자 로 변환</p>
@@ -1331,3 +1332,33 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>구구단만드는 방법</p>
 <p>구구단 같은거 할때 내가 나타내고자 하는 부분은 변수로 지정해서 넣고 </p>
 <p>고정되는 값들은 일반 문자(또는숫자)로 넣기</p>
+
+<hr>
+<h2>23.03.23 - js , css </h2>
+<h3>DOM querySelector</h3>
+<p>DOM 요소 직접 선택자보다 편함</p>
+<p>document.querySelector('#wrap')</p>
+<p>또는 document.querySelectorAll('div')</p>
+<p>두개 이상 잡을 때는 All</p>
+<p>이 선택자는 class처럼 두개 이상 있는데 인덱스를 안 적으면 맨 위의 하나만 인식함</p>
+<p>css처럼 소괄호 안에 선택자를 적으면 되는것</p>
+<p>const box_h4 = document.querySelector('.box h4')</p>
+<p>가장 가까운 부모자식기준으로 해야함</p>
+<p>자식 자손에 태그가 중복되어 있으면 중간에 > 표시를 넣어서 자식만 구분 할 수 있도록 해야함</p>
+
+<h3>속성값을 주는 방법</h3>
+<p>속성을 읽는다 = (객체.속성)</p>
+<p>속성을 변경한다 = (객체.속성=변경값)</p>
+<sup>length, innerHTML, style</sup>
+<p><strong>실제 태그 안에 들어가는 속성의 값을 주기 위해서는 value를 적기</strong></p>
+
+<h3>템플릿 문자열 활용하기</h3>
+<p>answer_input.value = `${total}23`</p>
+<p>` = 밴팃기호 사용해서 문자 넣어주기</p>
+<p>value는 input이나 button에 대부분 사용됨</p>
+
+<h3>DOM 이벤트 기본</h3>
+<p>이벤트 핸들러 란?</p>
+<p>자바스크립트를 통해 제작한 이벤트가 발동하기 위해 사용자가 취해야하는 동작을 의미함</p>
+<p>이벤트 핸들러의 종류 </p>
+<h3>이벤트 핸들러 사용법 </h3>
