@@ -1236,19 +1236,26 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>grid가 flex 보다 자유로움. 반응형웹에 특화된 레이아웃</p>
 <p>수직정렬이 기본</p>
 <p>display:grid;</p>
-<p>grid-template-columns:</p>
-<p>grid-template-rows:repeat(4,100px);</p>
+<p>grid-template-columns: //(수평으로 됨)</p>
+<p>grid-template-rows:repeat(4,100px); //(수직으로 크기가 100px이다)</p>
 <p>1fr = 정해진 크기 안에서 1비율로 알아서 정해라</p>
 
-가변형으로 크기 설정하고 싶을땐
- minmax()로 설정하기 (auto 가능)
-최소 제한 너비와 최대 제한 너비  
-명칭을 정해저 주는 방법 있음
-grid- template-rows:[트랙명] 트랙값 [트랙명] 트랙값;
-ex) grid-template-rows:[header]20px;
+<h3>가변형으로 크기 설정하고 싶을땐</h3>
+<p>최소 제한 너비와 최대 제한 너비</p>
+<p>minmax()로 설정하기 (auto 가능)</p>
+<p>grid-template-rows:repeat(4,minmax(150px,300px));</p>
+<p>위 해석 : 최소크기 150px 최대 크기 300px</p>
+<p><em>row 1 track은 1행을 말하는 것</em></p>
 
-grid-template-area /  grid-area
-grid-area 로 식별자 넣어서 개별로 선택자에 넣기 
-grid-template-area에 개별로 선택자에 넣은 grid-area의 명칭을 적기 
-같은 행에 있어야하는 애들은 '따음표안에 묶어야함'
-행에서 빈공간을 주고 싶을 때는 온 점을 주기 
+<p>명칭을 정해저 주는 방법 있음</p>
+<p>grid- template-rows:[트랙명] 트랙값 [트랙명] 트랙값;</p>
+<p>ex) grid-template-rows:[header]20px [row2]50px;</p>
+
+<h3>grid 레이아웃 템플릿 그리드 템플릿 영역</h3>
+<p>grid-template-area /  grid-area:item1</p>
+<p>grid-area 로 식별자(=item1) 넣어서 개별로 선택자에 넣기</p>
+<p>grid-template-area에 개별로 선택자에 넣은 grid-area의 명칭을 적기</p>
+<p>같은 행에 있어야하는 애들은 '따음표안에 묶어야함'</p>
+<p>행에서 빈공간을 주고 싶을 때는 온 점을 주기</p> 
+<p>none = gird-area(그리드영역)으로 정의되지 않은 grid-cell(그리드셀)을 의미함</p>
+<p>grid-area는 2번이상 연속해서 반복하지 않으면 병합되지 않음.</p>
