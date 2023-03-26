@@ -1105,3 +1105,45 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 
 <h2>23.03.15</h2>
 <h3>랜딩페이지 제작(과제)</h3>
+
+js 
+<script> 에서 속성 defer는 속도적인 측면에서 도움이 됨
+dom 요소 직접 선택자
+종류
+/
+/
+/
+ 
+두가지방법
+/
+/
+
+dom 객체 수정하기 
+(요소.inner HTML) 
+document.getElementById('아이디명').innerHTML="삽입내용";
+(console.log(변수.innerHTML))
+
+style로 연결해서 표시하는 방법 
+document.getElementById('아이디명').style.color="#ff0";
+document.getElementById('아이디명').style.CSS속성명="변경값";
+
+css
+grid / 레이아웃의 개념, 행/열 , repeat(), minmax()
+수직정렬이 기본
+display:grid;
+grid-template-columns:
+grid-template-rows:repeat
+1fr = 정해진 크기 안에서 1비율로 알아서 정해라
+
+가변형으로 크기 설정하고 싶을땐
+ minmax()로 설정하기 (auto 가능)
+최소 제한 너비와 최대 제한 너비  
+명칭을 정해저 주는 방법 있음
+grid- template-rows:[트랙명] 트랙값 [트랙명] 트랙값;
+ex) grid-template-rows:[header]20px;
+
+grid-template-area /  grid-area
+grid-area 로 식별자 넣어서 개별로 선택자에 넣기 
+grid-template-area에 개별로 선택자에 넣은 grid-area의 명칭을 적기 
+같은 행에 있어야하는 애들은 '따음표안에 묶어야함'
+행에서 빈공간을 주고 싶을 때는 온 점을 주기 
