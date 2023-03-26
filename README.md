@@ -1199,38 +1199,46 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 
 
 
+<h2>23.03.21 - js,CSS - grid </h2>
+<h3>DOM 요소 직접 선택자</h3>
+<p><strong>종류</strong></p>
+<p>document.getElementById('id')</p>
+<p>document.getElementsByClassName('class')[index]</p>
+<p>document.getElementsByTagName('name')[index]</p>
+<p>주의!!!!TagName과ClassName은 앞에 s가 붙어야함. 또 [index]도 존재해야함(선택자나 출력에)</p>
 
-
-
-<h2>23.03.21 - js </h2>
-js 
-<script> 에서 속성 defer는 속도적인 측면에서 도움이 됨
-dom 요소 직접 선택자
-종류
-/
-/
-/
  
-두가지방법
-/
-/
+<p><strong>두가지 방법</strong></p>
+<p>선택자를 여러개 작성하거나 출력시 인덱스 작성하기</p>
+<p>방법 1. (조금 더 간편한 방법)</p>
+<p>const menu = document.getElementsByClassName('a')</p>
+<p>console.log(menu[0].menu[1],menu[2])</p>
+<p>방법 2.</p>
+<p>const a1 = document.getElementsByClassName('a')[0]</p>
+<p>const a2 = document.getElementsByClassName('a')[1]</p>
+<p>console.log(a1,a2)</p>
 
-dom 객체 수정하기 
-(요소.inner HTML) 
-document.getElementById('아이디명').innerHTML="삽입내용";
-(console.log(변수.innerHTML))
 
-style로 연결해서 표시하는 방법 
-document.getElementById('아이디명').style.color="#ff0";
-document.getElementById('아이디명').style.CSS속성명="변경값";
+<h3>DOM 객체 수정하기</h3> 
+<p><strong>(요소.inner HTML)</strong></p> 
+<p>document.getElementById('아이디명').innerHTML="삽입내용";</p>
+<p>(console.log(변수.innerHTML))</p>
 
-css
-grid / 레이아웃의 개념, 행/열 , repeat(), minmax()
-수직정렬이 기본
-display:grid;
-grid-template-columns:
-grid-template-rows:repeat
-1fr = 정해진 크기 안에서 1비율로 알아서 정해라
+
+<p><strong>style로 연결해서 표시하는 방법</strong></p>
+<p>css style을 변경한다</p>
+<p>자바스크립트에서 css사용시 카멜표기법으로 속성 작성</p>
+<p>document.getElementById('아이디명').style.color="#ff0";</p>
+<p>document.getElementById('아이디명').style.CSS속성명="변경값";</p>
+
+
+<h3>CSS - Grid / 레이아웃의 개념, 행/열, repeat(), minmax()</h3>
+<p>grid가 flex 보다 자유로움. 반응형웹에 특화된 레이아웃</p>
+<p>수직정렬이 기본</p>
+<p>display:grid;</p>
+<p>grid-template-columns:</p>
+<p>grid-template-rows:repeat(4,100px);</p>
+<p>1fr = 정해진 크기 안에서 1비율로 알아서 정해라</p>
 
 가변형으로 크기 설정하고 싶을땐
  minmax()로 설정하기 (auto 가능)
