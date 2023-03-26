@@ -1380,8 +1380,26 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <sup>'ko-kr' = 한국기준 숫자</sup>
 
 
+<hr>
+<h2>23.03.24 - css </h2>
+<h3>css 애니메이션 1(transition, transform)</h3>
+<h3>css3 transiton(트랜지션)</h3>
+<p>트랜지션은 css속성 변경 시 속성에 따라 애니메이션 속도를 조절하는 방법</p>
+<p>css상대선택자(:hover),자바스크립트 타이머함수, 이벤트와 함께 많이 활용</p>
+<p>선택자:hover{transition:background(공백)1s(=지연시간);}</p>
+<p>!!! :hover{} 에 애니메이션 주고 싶을 땐 기존 값에서 '나는 이렇게 바꿀꺼다'라고 하고 줘야함!!!</p>
+<p>즉, hover에게 css주기전에 hover을 적용하고 싶은 선택자에도 같은 css속성이 있어야함.</p>
+<p>transition에 적용가능한 속성들은 개발자도구로 확인가능</p>
 
 
+<p><strong>transition의 속성 4가지 </strong></p>
+<p>transition-property = 애니메이션 적용 대상 (all=기본값)</p>
+<p>개별로 트랜지션을 주고 싶을때 정확하게 속성명을 명시해야함.</p>
+	<p>그렇지 않으면 transition:all 을 적어야함</p>
+<p>transition-duration = 애니메이션 지속 시간 (1s=기본값)</p>
+<p>transition-timing-function = 애니메이션 함수 (ease=기본값)</p>
+<p>개발자도구에서 가속도 원하는대로 변화시키고 붙여넣기하기</p>
+<p>transition-delay = 애니메이션 시작 전 딜레이 시간 (0=기본값)</p>
 
 
 
