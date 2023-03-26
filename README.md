@@ -1361,7 +1361,28 @@ font-family , font-size , line-height(행간,양수), letter-spacing(자간,음�
 <p>이벤트 핸들러 란?</p>
 <p>자바스크립트를 통해 제작한 이벤트가 발동하기 위해 사용자가 취해야하는 동작을 의미함</p>
 <p>이벤트 핸들러의 종류 약 8가지</p>
+
 <h3>자바스크립트 DOM 이벤트 1</h3>
 <p>이벤트 핸들러 사용법 1. 태그 내에 인라인방식으로 작성한 경우</p>
-<p><h1 conclick="this.innerHTML='제목1'"&gt;클릭하세요!&lt;/h1&gt;</p>
-<p>2.함수 활용한 경우 </p>
+<p>&lt;h1 conclick="this.innerHTML='제목1'"&gt;클릭하세요!&lt;/h1&gt;</p>
+<p>2. 함수를 활용한 경우</p>
+<p>function changeText(id) {id.innerHTML = "change txt";}</p>
+
+<h3>자바스크립트 DOM 이벤트 2</h3>
+<p><strong>요소.addEventListener(이벤트종류,함수실행 및 호출);</strong></p>
+<p>ex) btn.addEventListener('click',function(){ console.log(this}) <- 클릭했을때 콘솔에 나오는지 확인</p>
+
+
+<h3>가격같은 수, 세자리 기준으로 콤마가 나오도록 하기</h3>
+<sup>콤마처리 변수를 따로 만들고 숫자관련 변수를 따로 만들어서 적용시키기</sup>
+<p>객체.메서드</p>
+<p>객체.toLocaleString('ko-kr')</p>
+<sup>'ko-kr' = 한국기준 숫자</sup>
+
+
+
+
+
+
+
+
