@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box;}
+        .box {
+            width:200px; height:200px;
+            background: aquamarine;
+            animation:right300 1s ease both;
+        }
+        .box:nth-child(2) {animation:right300 2s ease-out infinite alternate-reverse;}
+        .box:nth-child(3) {animation:right300 3s ease 2s infinite reverse;}
+        .box:nth-child(4) {animation:right300 1s ease-in infinite alternate;}
+        .box:nth-child(5) {animation:top500 1s ease infinite alternate;}
+        /* @keyframes */
+        /* 왼쪽->오른쪽 300px 이동 */
+        @keyframes right300 {
+            0% {transform:translateX(0) rotate(0deg)}/* 시작값 */
+            100% {transform:translateX(300px) rotate(45deg)} /* 끝값 */
+        }
+        @keyframes top500 {
+            0% {transforms:translateY(0) rotate(0deg) }
+            100% {transforms:translateY(500px) rotate(80deg)}
+        }
+        @keyframes opacity {
+            0% {opacity:0}
+            100% {opacity:1}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">A</div>
+    <div class="box">B</div>
+    <div class="box">C</div>
+    <div class="box">D</div>
+    <div class="box">E</div>
+</body>
+</html>
