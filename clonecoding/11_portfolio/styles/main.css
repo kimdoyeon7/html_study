@@ -1,0 +1,49 @@
+/* 사진 200px 아이콘 25px  */
+body {
+    background-image:url(../images/7598163.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+}
+main {
+    display:flex; flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center; height:100vh;
+}
+main .photo {
+    width:200px; height:200px;
+    background-color:aqua;
+    border: 7px solid #fff; overflow:hidden;
+    border-radius:50%;
+}
+main .photo img {width:100%;}
+main h1 {font-size:2rem; margin-top:30px; font-weight:700;}
+main .loading {}
+main .loading .bar { 
+    display:inline-block; 
+    width:300px; height:10px; 
+    background-color: #fff; 
+    border-radius:50px;
+    margin-top:20px;
+}
+main p {font-weight:700; margin-top:50px;}
+main .sns {
+    /* background-color:pink; */
+    display:flex; flex-flow:row nowrap; justify-content:center;
+    margin-top:25px;
+}
+main .sns a {
+    width:25px; height:25px;
+    text-align:center;
+}
+main .sns a img {width:100%;}
+main .sns a .tip {opacity:0;}
+main .sns a:nth-child(2) {margin:0 20px;}
+main .gnb {display:block; margin-top:20px;}
+main .gnb span {
+    display:block; background-color:#000; width:30px; height:5px; 
+    border-radius:10px;
+    margin:0 auto 5px;
+}
+main .gnb span:nth-child(1) {}
+main .gnb span:nth-child(2) {}
+main .gnb span:nth-child(3) {}
